@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Excel 数据可视化 · 图表代码实现总览</title>
+<style>
+  body { margin: 0; padding: 24px; background: #F4F3EE; color: #1A1B1C;
+         font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: #6B7280; font-size: 13px; margin-bottom: 20px; }
+  h2 { font-size: 16px; margin: 24px 0 10px; padding-left: 10px;
+       border-left: 4px solid #5B9BD5; }
+  .grid { display: flex; flex-wrap: wrap; gap: 10px; }
+  a.card { flex: 1 1 150px; min-width: 140px; max-width: 200px;
+           display: block; padding: 12px; background: #fff; border-radius: 10px;
+           border: 1px solid rgba(0,0,0,0.08); color: #1A1B1C;
+           text-decoration: none; font-size: 13px; transition: box-shadow .15s; }
+  a.card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.12); color: #2F6FB4; }
+  .card .no { font-size: 11px; color: #6B7280; margin-bottom: 4px; }
+  .badge { display: inline-block; font-size: 11px; color: #fff; background: #ED7D31;
+           border-radius: 4px; padding: 1px 6px; margin-right: 4px; }
+  .note { color: #6B7280; font-size: 12px; margin-top: 24px; line-height: 1.6; }
+</style>
+</head>
+<body>
+  <h1>Excel 数据可视化 · 图表代码实现</h1>
+  <div class="sub">基于《Excel数据可视化——从图表到数据大屏》配套示例 · Python + pyecharts 复现 · 点击图表名称打开</div>
+
+  <h2>第二章 · 静态图表（30 张）</h2>
+  <div class="grid">
+    <a class="card" href="output/chart01_渐变柱形图.html"><div class="no">chart01</div>渐变柱形图</a>
+    <a class="card" href="output/chart02_带均值柱形图.html"><div class="no">chart02</div>带均值柱形图</a>
+    <a class="card" href="output/chart03_渐变圆角柱形图.html"><div class="no">chart03</div>渐变圆角柱形图</a>
+    <a class="card" href="output/chart04_标注柱形图.html"><div class="no">chart04</div>标注柱形图</a>
+    <a class="card" href="output/chart05_层叠柱形图.html"><div class="no">chart05</div>层叠柱形图</a>
+    <a class="card" href="output/chart06_蝴蝶图.html"><div class="no">chart06</div>蝴蝶图（销量）</a>
+    <a class="card" href="output/chart07_蝴蝶图.html"><div class="no">chart07</div>蝴蝶图（占比）</a>
+    <a class="card" href="output/chart08_数值百分比.html"><div class="no">chart08</div>数值百分比</a>
+    <a class="card" href="output/chart09_对比柱形图.html"><div class="no">chart09</div>对比柱形图</a>
+    <a class="card" href="output/chart10_甘特图.html"><div class="no">chart10</div>甘特图</a>
+    <a class="card" href="output/chart11_平滑折线图.html"><div class="no">chart11</div>平滑折线图</a>
+    <a class="card" href="output/chart12_菱形走势图.html"><div class="no">chart12</div>菱形走势图</a>
+    <a class="card" href="output/chart13_对比折线图.html"><div class="no">chart13</div>对比折线图</a>
+    <a class="card" href="output/chart14_单值圆环图.html"><div class="no">chart14</div>单值圆环图</a>
+    <a class="card" href="output/chart15_水球图.html"><div class="no">chart15</div>水球图</a>
+    <a class="card" href="output/chart16_波浪水球图.html"><div class="no">chart16</div>波浪水球图</a>
+    <a class="card" href="output/chart17_玉玦图.html"><div class="no">chart17</div>玉玦图</a>
+    <a class="card" href="output/chart18_跑道图.html"><div class="no">chart18</div>跑道图</a>
+    <a class="card" href="output/chart19_南丁格尔圆饼图.html"><div class="no">chart19</div>南丁格尔圆饼图</a>
+    <a class="card" href="output/chart20_南丁格尔圆环图.html"><div class="no">chart20</div>南丁格尔圆环图</a>
+    <a class="card" href="output/chart21_南丁格尔PPT.html"><div class="no">chart21</div>南丁格尔（PPT版）</a>
+    <a class="card" href="output/chart22_仪表盘图.html"><div class="no">chart22</div>仪表盘图</a>
+    <a class="card" href="output/chart23_柱形折线图.html"><div class="no">chart23</div>柱形折线图</a>
+    <a class="card" href="output/chart24_目标柱形图.html"><div class="no">chart24</div>目标柱形图</a>
+    <a class="card" href="output/chart25_子弹图.html"><div class="no">chart25</div>子弹图</a>
+    <a class="card" href="output/chart26_柱形圆.html"><div class="no">chart26</div>柱形圆</a>
+    <a class="card" href="output/chart27_簇状柱形折线图.html"><div class="no">chart27</div>簇状柱形折线图</a>
+    <a class="card" href="output/chart28_复合柱形图.html"><div class="no">chart28</div>复合柱形图</a>
+    <a class="card" href="output/chart29_滑珠图.html"><div class="no">chart29</div>滑珠图</a>
+    <a class="card" href="output/chart30_对比滑珠图.html"><div class="no">chart30</div>对比滑珠图</a>
+  </div>
+
+  <h2>第三章 · 动态图表（7 张，Timeline 自动播放）</h2>
+  <div class="grid">
+    <a class="card" href="output/ch3_01_动态柱形图.html"><div class="no">ch3-01</div>动态柱形图</a>
+    <a class="card" href="output/ch3_02_动态跑道图.html"><div class="no">ch3-02</div>动态跑道图</a>
+    <a class="card" href="output/ch3_03_动态南丁格尔圆环图.html"><div class="no">ch3-03</div>动态南丁格尔圆环图</a>
+    <a class="card" href="output/ch3_04_动态组合图.html"><div class="no">ch3-04</div>动态组合图</a>
+    <a class="card" href="output/ch3_05_透视表切片器.html"><div class="no">ch3-05</div>透视表切片器</a>
+    <a class="card" href="output/ch3_06_动态玉玦图.html"><div class="no">ch3-06</div>动态玉玦图</a>
+    <a class="card" href="output/ch3_07_动态滑珠图.html"><div class="no">ch3-07</div>动态滑珠图</a>
+  </div>
+
+  <h2>第四章 · 数据大屏（2 个）</h2>
+  <div class="grid">
+    <a class="card" href="output/ch4_01_人力资源看板.html"><div class="no">ch4-01</div>人力资源看板</a>
+    <a class="card" href="output/ch4_02_销售数据大屏.html"><div class="no">ch4-02</div>销售数据大屏</a>
+  </div>
+
+  <div class="note">
+    运行方式：<code>python chapter2/chart01_渐变柱形图.py</code>（其余文件同理），HTML 生成到 output/。<br>
+    技术栈：Python + pyecharts · 数据来源：教材配套 Excel 示例 · 项目说明见 README.md
+  </div>
+</body>
+</html>
