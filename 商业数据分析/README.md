@@ -136,6 +136,10 @@ node tests/test_dashboard.js    # 大屏冒烟测试：14 项断言（可选，�
 `run_all.py` 会为每一步自动挑选「能 import 所需库」的 Python 解释器（本机可能装了多个），
 也可手动指定：`python run_all.py --py 5=C:\Python313\python.exe`。
 
+> **重跑后的 git 差异是正常的**：pyecharts 每次生成 HTML 都会重新分配图表容器的随机 id，
+> docx 重新打包也会变 zip 时间戳，因此重跑后 `outputs/figs/*.html` 与论文 docx 会显示为已修改，
+> 但图表的数值与版式完全一致。想还原成入库版本执行 `git restore .` 即可。
+
 ---
 
 ## 六、分析模型与核心结论
