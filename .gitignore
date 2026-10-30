@@ -1,11 +1,69 @@
-# ===== IDE / OS 垃圾 =====
+# ============================================================
+# 仓库根 .gitignore —— 只放「全仓库通用」的忽略规则
+# 各作业目录另有自己的 .gitignore（如 大数据分析/.gitignore，
+# 用来排除教材原始数据与 IDE 配置），规则只在各自子树生效。
+# ============================================================
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+ENV/
+
+# ---------- 测试 / 缓存 ----------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+node_modules/
+
+# ---------- 编辑器 / IDE ----------
 .idea/
 .vscode/
-__pycache__/
-*.pyc
-.DS_Store
+*.swp
+*.swo
+*~
+.project
+.settings/
 
-# ===== 教材原始数据文件（版权，不入库；数值已硬编码进 .py 复现） =====
-*.xlsx
-*.xlsm
-*.pptx
+# ---------- 操作系统 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+._*
+
+# ---------- Office / WPS 临时锁文件 ----------
+~$*
+*.~*
+*.crdownload
+*.part
+
+# ---------- 日志 / 临时文件 ----------
+*.log
+logs/
+*.tmp
+*.bak
+*.orig
+*.rej
+_qa/
+_tmp/
+_temp/
+
+# ---------- 调试用的一次性脚本 ----------
+_probe_*.py
+_check_*.py
+_*_tree.txt
+
+# ---------- 本机文件权限诊断记录 ----------
+_acl_report/
+acl-report-*.jsonl
+acl-backup-*.json

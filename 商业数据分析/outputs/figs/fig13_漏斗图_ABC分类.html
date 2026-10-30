@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>fig13</title>
+                <script type="text/javascript" src="../../assets/echarts.min.js"></script>
+
+    
+</head>
+<body >
+    <div id="6ce78309bb1c40a68a14c2641cc6e485" class="chart-container" style="width:880px; height:440px; "></div>
+    <script>
+        var chart_6ce78309bb1c40a68a14c2641cc6e485 = echarts.init(
+            document.getElementById('6ce78309bb1c40a68a14c2641cc6e485'), 'light', {renderer: 'canvas', locale: 'ZH'});
+        var option_6ce78309bb1c40a68a14c2641cc6e485 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "funnel",
+            "name": "\u4efd\u989d",
+            "data": [
+                {
+                    "name": "A \u7c7b\uff0812 \u56fd\uff09",
+                    "value": 70.89
+                },
+                {
+                    "name": "B \u7c7b\uff0825 \u56fd\uff09",
+                    "value": 18.88
+                },
+                {
+                    "name": "C \u7c7b\uff08163 \u56fd\uff09",
+                    "value": 10.22
+                }
+            ],
+            "min": 0,
+            "max": 100,
+            "minSize": "0%",
+            "maxSize": "100%",
+            "orient": "vertical",
+            "sort": "descending",
+            "gap": 3,
+            "legendHoverLink": true,
+            "funnelAlign": "center",
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "formatter": "{b}: {c}%",
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "selectedMode": false,
+            "zlevel": 0,
+            "z": 2
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "A \u7c7b\uff0812 \u56fd\uff09",
+                "B \u7c7b\uff0825 \u56fd\uff09",
+                "C \u7c7b\uff08163 \u56fd\uff09"
+            ],
+            "selected": {},
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10,
+            "triggerEvent": false
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "displayTransition": true,
+        "formatter": "{b}: {c}%",
+        "textStyle": {
+            "fontSize": 14,
+            "richInheritPlainLabel": true
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "color": [
+        "#ED7D31",
+        "#FFC000",
+        "#4472C4"
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "ABC \u5206\u7c7b\u6f0f\u6597\uff1aA \u7c7b 12 \u56fd\u5403\u6389 70% \u7684 GDP",
+            "target": "blank",
+            "subtext": "\u6570\u636e\u6765\u6e90\uff1a\u4e16\u754c\u94f6\u884c WDI\uff0c2000\u20132024 \u5e74",
+            "subtarget": "blank",
+            "left": "center",
+            "top": "1%",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false,
+            "textStyle": {
+                "fontWeight": "bold",
+                "fontSize": 17,
+                "richInheritPlainLabel": true
+            },
+            "subtextStyle": {
+                "color": "#888",
+                "fontSize": 11,
+                "richInheritPlainLabel": true
+            }
+        }
+    ]
+};
+        chart_6ce78309bb1c40a68a14c2641cc6e485.setOption(option_6ce78309bb1c40a68a14c2641cc6e485);
+    </script>
+</body>
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>fig20</title>
+                <script type="text/javascript" src="../../assets/echarts.min.js"></script>
+
+    
+</head>
+<body >
+    <div id="e56c06f03aad4e4f8b7233025742b225" class="chart-container" style="width:900px; height:560px; "></div>
+    <script>
+        var chart_e56c06f03aad4e4f8b7233025742b225 = echarts.init(
+            document.getElementById('e56c06f03aad4e4f8b7233025742b225'), 'light', {renderer: 'canvas', locale: 'ZH'});
+        var option_e56c06f03aad4e4f8b7233025742b225 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "line",
+            "name": "\u7c07\u5185\u5e73\u65b9\u548c SSE",
+            "connectNulls": false,
+            "xAxisIndex": 0,
+            "yAxisIndex": 0,
+            "symbolSize": 7,
+            "showSymbol": true,
+            "smooth": true,
+            "clip": true,
+            "step": false,
+            "stackStrategy": "samesign",
+            "data": [
+                [
+                    "2",
+                    823.33
+                ],
+                [
+                    "3",
+                    614.74
+                ],
+                [
+                    "4",
+                    482.83
+                ],
+                [
+                    "5",
+                    398.91
+                ],
+                [
+                    "6",
+                    363.46
+                ],
+                [
+                    "7",
+                    312.55
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "margin": 8,
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "logBase": 10,
+            "seriesLayoutBy": "column",
+            "lineStyle": {
+                "show": false,
+                "width": 3,
+                "color": "#4472C4"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "#4472C4"
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "\u8f6e\u5ed3\u7cfb\u6570",
+            "connectNulls": false,
+            "xAxisIndex": 0,
+            "yAxisIndex": 1,
+            "symbolSize": 7,
+            "showSymbol": true,
+            "smooth": true,
+            "clip": true,
+            "step": false,
+            "stackStrategy": "samesign",
+            "data": [
+                [
+                    "2",
+                    0.2111
+                ],
+                [
+                    "3",
+                    0.2667
+                ],
+                [
+                    "4",
+                    0.2562
+                ],
+                [
+                    "5",
+                    0.2817
+                ],
+                [
+                    "6",
+                    0.2812
+                ],
+                [
+                    "7",
+                    0.2406
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "margin": 8,
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "logBase": 10,
+            "seriesLayoutBy": "column",
+            "lineStyle": {
+                "show": false,
+                "width": 3,
+                "color": "#ED7D31"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "markLine": {
+                "silent": false,
+                "precision": 2,
+                "label": {
+                    "show": true,
+                    "margin": 8,
+                    "richInheritPlainLabel": true,
+                    "valueAnimation": false
+                },
+                "lineStyle": {
+                    "show": false,
+                    "type": "dashed",
+                    "color": "#7030A0"
+                },
+                "data": [
+                    {
+                        "name": "\u6700\u5927\u503c",
+                        "type": "max"
+                    }
+                ]
+            },
+            "itemStyle": {
+                "color": "#ED7D31"
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u7c07\u5185\u5e73\u65b9\u548c SSE",
+                "\u8f6e\u5ed3\u7cfb\u6570"
+            ],
+            "selected": {},
+            "show": true,
+            "top": "9%",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10,
+            "triggerEvent": false
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "axis",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "cross"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "displayTransition": true,
+        "textStyle": {
+            "fontSize": 14,
+            "richInheritPlainLabel": true
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "name": "\u7c07\u6570 k",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameTruncate": {},
+            "nameMoveOverlap": true,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "silent": false,
+            "triggerEvent": false,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": false
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0,
+            "data": [
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "SSE",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameTruncate": {},
+            "nameMoveOverlap": true,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "silent": false,
+            "triggerEvent": false,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": false
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0
+        },
+        {
+            "name": "\u8f6e\u5ed3\u7cfb\u6570",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameTruncate": {},
+            "nameMoveOverlap": true,
+            "axisLabel": {
+                "show": true,
+                "margin": 8,
+                "formatter": "{value}",
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "inverse": false,
+            "position": "right",
+            "offset": 0,
+            "splitNumber": 5,
+            "min": 0.15,
+            "max": 0.35,
+            "minInterval": 0,
+            "silent": false,
+            "triggerEvent": false,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": false
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "M4 \u9009 k \u7684\u4e24\u4e2a\u51c6\u5219\uff1a\u8098\u90e8\u6cd5 + \u8f6e\u5ed3\u7cfb\u6570",
+            "target": "blank",
+            "subtext": "\u6570\u636e\u6765\u6e90\uff1a\u4e16\u754c\u94f6\u884c WDI\uff0c2000\u20132024 \u5e74",
+            "subtarget": "blank",
+            "left": "center",
+            "top": "1%",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false,
+            "textStyle": {
+                "fontWeight": "bold",
+                "fontSize": 17,
+                "richInheritPlainLabel": true
+            },
+            "subtextStyle": {
+                "color": "#888",
+                "fontSize": 11,
+                "richInheritPlainLabel": true
+            }
+        }
+    ]
+};
+        chart_e56c06f03aad4e4f8b7233025742b225.setOption(option_e56c06f03aad4e4f8b7233025742b225);
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿字段名,类型,说明,来源
+country_code,string,ISO3 国家代码（主键之一）,WDI 元数据
+year,int,年份，2000-2024（主键之一）,WDI 宽表列名
+region,string,世界银行七大区域,WDI Metadata_Country
+income_group,string,收入分组：High/Low/Lower middle/Upper middle income,WDI Metadata_Country
+GDP现价,float,经济体总量，衡量市场规模（单位：现价美元）,WDI NY.GDP.MKTP.CD
+GDP增长率,float,不变价年增长率，衡量增长动能（单位：%）,WDI NY.GDP.MKTP.KD.ZG
+人均GDP增长率,float,剔除人口因素的真实增长（单位：%）,WDI NY.GDP.PCAP.KD.ZG
+总人口,float,市场人口基数（单位：人）,WDI SP.POP.TOTL
+贸易占GDP比重,float,对外开放度/贸易依存度（单位：%）,WDI NE.TRD.GNFS.ZS
+出口占GDP比重,float,外需依赖度（单位：%）,WDI NE.EXP.GNFS.ZS
+政府债务占GDP,float,财政风险敞口（单位：%）,WDI GC.DOD.TOTL.GD.ZS
+失业率,float,劳动力市场景气度（单位：%）,WDI SL.UEM.TOTL.ZS
+GDP同比增速,float/派生,由 GDP现价 逐年 pct_change 派生，%,本脚本派生
+增长动能变化,float/派生,当年 GDP增长率 与上年之差，百分点,本脚本派生
+人均GDP同比,float/派生,由 人均GDP 逐年 pct_change 派生，%,本脚本派生
+ln_GDP,float/派生,GDP现价 的自然对数，用于压缩量纲,本脚本派生
+全球GDP份额,float/派生,该国 GDP 占当年样本国家合计的比重，%,本脚本派生
+区域GDP份额,float/派生,该国 GDP 占当年所属区域合计的比重，%,本脚本派生
+人均GDP,float/派生,GDP现价 / 总人口，现价美元（本脚本派生）,本脚本派生
+outlier_iqr,float/派生,是否被 3×IQR 判为极端离群（保留，不删除）,本脚本派生

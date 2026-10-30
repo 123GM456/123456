@@ -1,0 +1,432 @@
+{
+  "meta": {
+    "seed": 42,
+    "focus_countries": [
+      "United States",
+      "China",
+      "Germany",
+      "Japan",
+      "India",
+      "United Kingdom",
+      "France",
+      "Brazil"
+    ],
+    "focus_cn": {
+      "United States": "美国",
+      "China": "中国",
+      "Germany": "德国",
+      "Japan": "日本",
+      "India": "印度",
+      "United Kingdom": "英国",
+      "France": "法国",
+      "Brazil": "巴西",
+      "Russian Federation": "俄罗斯",
+      "Italy": "意大利",
+      "Canada": "加拿大"
+    },
+    "data_source": "World Bank WDI, 2026-10-08 更新，2000-2024"
+  },
+  "M1_趋势对比": {
+    "china_growth_2024": 4.96,
+    "world_growth_2024": 2.86,
+    "china_gap_2024": 2.1,
+    "china_share_2024": 16.93,
+    "china_share_2000": 3.64,
+    "world_growth_decade": {
+      "2000": 2.41,
+      "2010": 3.08,
+      "2020": 2.53
+    },
+    "china_series": {
+      "2000": 8.574,
+      "2001": 8.324,
+      "2002": 9.236,
+      "2003": 10.114,
+      "2004": 10.14,
+      "2005": 11.454,
+      "2006": 12.675,
+      "2007": 14.151,
+      "2008": 9.669,
+      "2009": 9.406,
+      "2010": 10.592,
+      "2011": 9.462,
+      "2012": 7.858,
+      "2013": 7.778,
+      "2014": 7.461,
+      "2015": 6.982,
+      "2016": 6.774,
+      "2017": 6.891,
+      "2018": 6.758,
+      "2019": 6.067,
+      "2020": 2.34,
+      "2021": 8.57,
+      "2022": 3.134,
+      "2023": 5.416,
+      "2024": 4.958
+    },
+    "world_series": {
+      "2000": null,
+      "2001": 1.684,
+      "2002": 1.876,
+      "2003": 2.714,
+      "2004": 3.977,
+      "2005": 3.584,
+      "2006": 4.04,
+      "2007": 3.952,
+      "2008": 1.737,
+      "2009": -1.912,
+      "2010": 4.188,
+      "2011": 3.194,
+      "2012": 2.526,
+      "2013": 2.771,
+      "2014": 3.025,
+      "2015": 2.999,
+      "2016": 2.797,
+      "2017": 3.424,
+      "2018": 3.254,
+      "2019": 2.653,
+      "2020": -2.95,
+      "2021": 6.442,
+      "2022": 3.4,
+      "2023": 2.874,
+      "2024": 2.86
+    }
+  },
+  "M2_帕累托": {
+    "total_countries": 200,
+    "top10_share": 67.22,
+    "top20_share": 81.29,
+    "countries_for_80pct": 19,
+    "a_count": 12,
+    "c_count": 163,
+    "a_share": 70.89,
+    "abc": [
+      {
+        "ABC分类": "A",
+        "国家数": 12,
+        "GDP合计": 78421261649562.12,
+        "份额合计": 70.89
+      },
+      {
+        "ABC分类": "B",
+        "国家数": 25,
+        "GDP合计": 20890374565165.41,
+        "份额合计": 18.88
+      },
+      {
+        "ABC分类": "C",
+        "国家数": 163,
+        "GDP合计": 11309114157867.912,
+        "份额合计": 10.22
+      }
+    ],
+    "top15": [
+      {
+        "country_name": "United States",
+        "region": "North America",
+        "份额": 26.485,
+        "累计份额": 26.485,
+        "ABC分类": "A"
+      },
+      {
+        "country_name": "China",
+        "region": "East Asia & Pacific",
+        "份额": 16.931,
+        "累计份额": 43.417,
+        "ABC分类": "A"
+      },
+      {
+        "country_name": "Germany",
+        "region": "Europe & Central Asia",
+        "份额": 4.236,
+        "累计份额": 47.652,
+        "ABC分类": "A"
+      },
+      {
+        "country_name": "Japan",
+        "region": "East Asia & Pacific",
+        "份额": 3.788,
+        "累计份额": 51.44,
+        "ABC分类": "A"
+      },
+      {
+        "country_name": "India",
+        "region": "South Asia",
+        "份额": 3.4,
+        "累计份额": 54.84,
+        "ABC分类": "A"
+      },
+      {
+        "country_name": "United Kingdom",
+        "region": "Europe & Central Asia",
+        "份额": 3.341,
+        "累计份额": 58.18,
+        "ABC分类": "A"
+      },
+      {
+        "country_name": "France",
+        "region": "Europe & Central Asia",
+        "份额": 2.857,
+        "累计份额": 61.037,
+        "ABC分类": "A"
+      },
+      {
+        "country_name": "Italy",
+        "region": "Europe & Central Asia",
+        "份额": 2.155,
+        "累计份额": 63.192,
+        "ABC分类": "A"
+      },
+      {
+        "country_name": "Canada",
+        "region": "North America",
+        "份额": 2.052,
+        "累计份额": 65.244,
+        "ABC分类": "A"
+      },
+      {
+        "country_name": "Russian Federation",
+        "region": "Europe & Central Asia",
+        "份额": 1.977,
+        "累计份额": 67.221,
+        "ABC分类": "A"
+      },
+      {
+        "country_name": "Brazil",
+        "region": "Latin America & Caribbean",
+        "份额": 1.976,
+        "累计份额": 69.197,
+        "ABC分类": "A"
+      },
+      {
+        "country_name": "Korea, Rep.",
+        "region": "East Asia & Pacific",
+        "份额": 1.695,
+        "累计份额": 70.892,
+        "ABC分类": "A"
+      },
+      {
+        "country_name": "Mexico",
+        "region": "Latin America & Caribbean",
+        "份额": 1.655,
+        "累计份额": 72.547,
+        "ABC分类": "B"
+      },
+      {
+        "country_name": "Australia",
+        "region": "East Asia & Pacific",
+        "份额": 1.588,
+        "累计份额": 74.135,
+        "ABC分类": "B"
+      },
+      {
+        "country_name": "Spain",
+        "region": "Europe & Central Asia",
+        "份额": 1.56,
+        "累计份额": 75.695,
+        "ABC分类": "B"
+      }
+    ]
+  },
+  "M3_波士顿": {
+    "x_median": 0.0398,
+    "y_median": 2.74,
+    "quadrant_counts": {
+      "金牛（高份额·低增速）": 62,
+      "瘦狗（低份额·低增速）": 54,
+      "问题（低份额·高增速）": 45,
+      "明星（高份额·高增速）": 38
+    },
+    "stars": [
+      {
+        "country_name": "China",
+        "全球GDP份额": 16.931,
+        "复合增速": 5.774
+      },
+      {
+        "country_name": "India",
+        "全球GDP份额": 3.4,
+        "复合增速": 5.834
+      },
+      {
+        "country_name": "Indonesia",
+        "全球GDP份额": 1.262,
+        "复合增速": 4.197
+      }
+    ]
+  },
+  "M4_聚类": {
+    "best_k": 5,
+    "silhouette": 0.2817,
+    "sizes": {
+      "高增长追赶型": 64,
+      "成熟稳健型": 61,
+      "高失业低增长型": 23,
+      "外向型高开放经济体": 16,
+      "增长失速型": 7
+    },
+    "k_diag": [
+      {
+        "k": 2,
+        "inertia": 823.33,
+        "silhouette": 0.2111
+      },
+      {
+        "k": 3,
+        "inertia": 614.74,
+        "silhouette": 0.2667
+      },
+      {
+        "k": 4,
+        "inertia": 482.83,
+        "silhouette": 0.2562
+      },
+      {
+        "k": 5,
+        "inertia": 398.91,
+        "silhouette": 0.2817
+      },
+      {
+        "k": 6,
+        "inertia": 363.46,
+        "silhouette": 0.2812
+      },
+      {
+        "k": 7,
+        "inertia": 312.55,
+        "silhouette": 0.2406
+      }
+    ],
+    "centers": [
+      {
+        "簇": "C1",
+        "GDP增长率": 4.06,
+        "人均GDP增长率": 2.24,
+        "贸易占GDP比重": 60.97,
+        "出口占GDP比重": 24.51,
+        "失业率": 5.11,
+        "人均GDP": 3.3,
+        "群体": "高增长追赶型"
+      },
+      {
+        "簇": "C2",
+        "GDP增长率": 3.84,
+        "人均GDP增长率": 2.69,
+        "贸易占GDP比重": 214.35,
+        "出口占GDP比重": 112.53,
+        "失业率": 6.43,
+        "人均GDP": 4.43,
+        "群体": "外向型高开放经济体"
+      },
+      {
+        "簇": "C3",
+        "GDP增长率": -6.54,
+        "人均GDP增长率": -7.72,
+        "贸易占GDP比重": 54.99,
+        "出口占GDP比重": 23.64,
+        "失业率": 11.37,
+        "人均GDP": 3.26,
+        "群体": "增长失速型"
+      },
+      {
+        "簇": "C4",
+        "GDP增长率": 1.8,
+        "人均GDP增长率": 1.18,
+        "贸易占GDP比重": 86.36,
+        "出口占GDP比重": 43.68,
+        "失业率": 6.0,
+        "人均GDP": 4.34,
+        "群体": "成熟稳健型"
+      },
+      {
+        "簇": "C5",
+        "GDP增长率": 1.7,
+        "人均GDP增长率": 0.43,
+        "贸易占GDP比重": 83.71,
+        "出口占GDP比重": 36.78,
+        "失业率": 18.31,
+        "人均GDP": 3.63,
+        "群体": "高失业低增长型"
+      }
+    ],
+    "cluster_of_china": "高增长追赶型",
+    "cluster_of_us": "成熟稳健型"
+  },
+  "M5_预测": {
+    "country": "China",
+    "alpha": 0.75,
+    "beta": 0.15,
+    "sigma": 0.7607,
+    "mape": 7.65,
+    "rmse": 1.6457,
+    "cagr_2000_2024": 11.63,
+    "forecast": [
+      {
+        "year": 2025,
+        "预测GDP": 19.71,
+        "下限95": 18.219,
+        "上限95": 21.201
+      },
+      {
+        "year": 2026,
+        "预测GDP": 20.512,
+        "下限95": 18.403,
+        "上限95": 22.621
+      },
+      {
+        "year": 2027,
+        "预测GDP": 21.314,
+        "下限95": 18.732,
+        "上限95": 23.897
+      }
+    ],
+    "backtest": [
+      {
+        "year": 2022,
+        "实际": 18.317,
+        "回测预测": 18.637,
+        "绝对误差%": 1.751
+      },
+      {
+        "year": 2023,
+        "实际": 18.27,
+        "回测预测": 19.857,
+        "绝对误差%": 8.683
+      },
+      {
+        "year": 2024,
+        "实际": 18.73,
+        "回测预测": 21.076,
+        "绝对误差%": 12.527
+      }
+    ]
+  },
+  "M6_结构": {
+    "top10_2024": 67.22,
+    "top10_2000": 73.82,
+    "region_share_2024": {
+      "North America": 28.55,
+      "East Asia & Pacific": 28.35,
+      "Europe & Central Asia": 26.53,
+      "Latin America & Caribbean": 6.25,
+      "Middle East & North Africa": 4.59,
+      "South Asia": 3.95,
+      "Sub-Saharan Africa": 1.79
+    },
+    "region_share_2000": {
+      "North America": 32.73,
+      "Europe & Central Asia": 29.98,
+      "East Asia & Pacific": 24.23,
+      "Latin America & Caribbean": 6.9,
+      "Middle East & North Africa": 3.27,
+      "South Asia": 1.62,
+      "Sub-Saharan Africa": 1.26
+    },
+    "income_share_2024": {
+      "High income": 64.49,
+      "Low income": 0.49,
+      "Lower middle income": 6.19,
+      "Upper middle income": 28.84
+    }
+  }
+}

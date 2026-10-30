@@ -1,0 +1,88 @@
+# ============================================================
+# 《基于世界银行开放数据的全球宏观经济分析》—— Git 忽略规则
+# 原则：代码、正文内容源、原始数据、最终产物都要进仓库；
+#       只有「可再生成的中间物」和「本地环境垃圾」被排除。
+# ============================================================
+
+# ---------- Python 运行产物 ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---------- 虚拟环境 ----------
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ---------- 测试 / 类型检查 / 缓存 ----------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+node_modules/
+npm-debug.log*
+
+# ---------- 编辑器与 IDE ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ---------- 操作系统 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+._*
+
+# ---------- Office / WPS 临时文件 ----------
+# Word 打开 docx 时生成的锁文件（形如 ~$大论文.docx）
+~$*
+*.~*
+# Excel 打开 csv/xlsx 时的临时文件
+*.crdownload
+*.part
+
+# ---------- 日志与临时输出 ----------
+*.log
+logs/
+*.tmp
+*.bak
+*.orig
+*.rej
+_qa/
+_tmp/
+_temp/
+
+# ---------- 调试 / 一次性脚本（开发期用，交付版不含） ----------
+# 若交付时确实需要保留，可删掉下面三行
+_probe_*.py
+_check_*.py
+_*_tree.txt
+
+# ---------- 沙箱 / 权限诊断记录（本机环境相关，与作业无关）----------
+_acl_report/
+acl-report-*.jsonl
+acl-backup-*.json
+
+# ============================================================
+# 以下内容【故意不忽略】，保证 clone 下来即可复现：
+#   data/raw/     世界银行 WDI 官方下载包（CSV + Metadata + zip）
+#   data/clean/   清洗后的 master.csv / country_year.csv 等
+#   assets/       echarts.min.js（本地离线渲染交互图）
+#   outputs/      22 张交互图 + 8 张论文配图 + 大屏 + 索引页 + 模型 CSV
+#   docs/         paper_content.json（论文正文内容源）+ 合规声明.md
+#   作业要求/      课程模板与评分标准（06_report.py 读取模板，必须保留）
+#   期末大论文_*.docx  最终交付论文
+# ============================================================

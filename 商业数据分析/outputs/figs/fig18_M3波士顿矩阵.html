@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>fig18</title>
+                <script type="text/javascript" src="../../assets/echarts.min.js"></script>
+
+    
+</head>
+<body >
+    <div id="a98d1864ad9a4b45b2298495d175c4bc" class="chart-container" style="width:980px; height:600px; "></div>
+    <script>
+        var chart_a98d1864ad9a4b45b2298495d175c4bc = echarts.init(
+            document.getElementById('a98d1864ad9a4b45b2298495d175c4bc'), 'light', {renderer: 'canvas', locale: 'ZH'});
+        var option_a98d1864ad9a4b45b2298495d175c4bc = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "scatter",
+            "name": "\u660e\u661f",
+            "symbolSize": function(v){return Math.max(6, v[2]*0.55);},
+            "data": [
+                [
+                    0,
+                    1.229,
+                    5.77,
+                    136.9,
+                    "China"
+                ]
+            ],
+            "label": {
+                "show": false,
+                "margin": 8,
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "silent": false,
+            "itemStyle": {
+                "color": "#4472C4",
+                "opacity": 0.7
+            }
+        },
+        {
+            "type": "scatter",
+            "name": "\u7626\u72d7",
+            "symbolSize": function(v){return Math.max(6, v[2]*0.55);},
+            "data": [
+                [
+                    0,
+                    -1.409,
+                    1.87,
+                    6.6,
+                    "Estonia"
+                ]
+            ],
+            "label": {
+                "show": false,
+                "margin": 8,
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "silent": false,
+            "itemStyle": {
+                "color": "#ED7D31",
+                "opacity": 0.7
+            }
+        },
+        {
+            "type": "scatter",
+            "name": "\u91d1\u725b",
+            "symbolSize": function(v){return Math.max(6, v[2]*0.55);},
+            "data": [
+                [
+                    0,
+                    1.423,
+                    2.49,
+                    171.2,
+                    "United States"
+                ]
+            ],
+            "label": {
+                "show": false,
+                "margin": 8,
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "silent": false,
+            "itemStyle": {
+                "color": "#70AD47",
+                "opacity": 0.7
+            }
+        },
+        {
+            "type": "scatter",
+            "name": "\u95ee\u9898",
+            "symbolSize": function(v){return Math.max(6, v[2]*0.55);},
+            "data": [
+                [
+                    0,
+                    -1.407,
+                    4.09,
+                    6.6,
+                    "Nepal"
+                ]
+            ],
+            "label": {
+                "show": false,
+                "margin": 8,
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "silent": false,
+            "itemStyle": {
+                "color": "#FFC000",
+                "opacity": 0.7
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u660e\u661f",
+                "\u7626\u72d7",
+                "\u91d1\u725b",
+                "\u95ee\u9898"
+            ],
+            "selected": {},
+            "show": true,
+            "top": "9%",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10,
+            "triggerEvent": false
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "displayTransition": true,
+        "formatter": function(p){return p.seriesName+'<br/>'+p.value[3]+'<br/>\u4efd\u989d(log10) '+p.value[0]+'<br/>\u590d\u5408\u589e\u901f '+p.value[1]+'%';},
+        "textStyle": {
+            "fontSize": 14,
+            "richInheritPlainLabel": true
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis": [
+        {
+            "type": "value",
+            "name": "log10(\u5168\u7403\u4efd\u989d%)",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameTruncate": {},
+            "nameMoveOverlap": true,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "min": -4,
+            "minInterval": 0,
+            "silent": false,
+            "triggerEvent": false,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": false,
+                    "type": "dashed"
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0,
+            "data": [
+                0
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "type": "value",
+            "name": "2015\u20132024 \u590d\u5408\u589e\u901f %",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "nameTruncate": {},
+            "nameMoveOverlap": true,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "silent": false,
+            "triggerEvent": false,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": false
+                }
+            },
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "M3 \u6ce2\u58eb\u987f\u77e9\u9635\uff1a\u4efd\u989d \u00d7 \u589e\u901f\u56db\u8c61\u9650\uff08\u6c14\u6ce1=GDP \u89c4\u6a21\uff09",
+            "target": "blank",
+            "subtext": "\u6570\u636e\u6765\u6e90\uff1a\u4e16\u754c\u94f6\u884c WDI\uff0c2000\u20132024 \u5e74",
+            "subtarget": "blank",
+            "left": "center",
+            "top": "1%",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false,
+            "textStyle": {
+                "fontWeight": "bold",
+                "fontSize": 17,
+                "richInheritPlainLabel": true
+            },
+            "subtextStyle": {
+                "color": "#888",
+                "fontSize": 11,
+                "richInheritPlainLabel": true
+            }
+        }
+    ]
+};
+        chart_a98d1864ad9a4b45b2298495d175c4bc.setOption(option_a98d1864ad9a4b45b2298495d175c4bc);
+    </script>
+</body>
+</html>

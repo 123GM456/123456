@@ -1,0 +1,5 @@
+五、 数据搜索引擎（教学生“如何找数据”）
+除了直接给链接，授人以渔更重要。可以教学生使用以下“数据搜索引擎”：
+Google Dataset Search (datasetsearch.research.google.com)：专门针对数据集的搜索引擎，能搜到全球高校、机构托管的商业数据。
+Papers with Code (paperswithcode.com/datasets)：偏向AI和机器学习，但包含大量带有商业标签的基准数据集。
+GitHub Awesome Public Datasets (github.com/awesomedata/awesome-public-datasets)：按行业（金融、电商、体育、政府）分类的超级数据集导航大全。

@@ -1,0 +1,200 @@
+﻿country_name,GDP现价,全球GDP份额,region,income_group,复合增速,象限,气泡,中文名
+United States,29298013000000.0,26.485096965368378,North America,High income,2.492059610023656,金牛（高份额·低增速）,171.16662349885857,美国
+China,18729668435848.0,16.93142414308553,East Asia & Pacific,Upper middle income,5.77368366666664,明星（高份额·高增速）,136.856378864297,中国
+Germany,4685592577804.69,4.235726626354067,Europe & Central Asia,High income,0.878569131721485,金牛（高份额·低增速）,68.4513884286118,德国
+Japan,4190008188358.57,3.787723527679648,East Asia & Pacific,High income,0.5559117095967236,金牛（高份额·低增速）,64.73027258059841,日本
+India,3760813470500.86,3.399735996938728,South Asia,Lower middle income,5.83428305591529,明星（高份额·高增速）,61.32547162884978,印度
+United Kingdom,3695539513534.15,3.3407290233403284,Europe & Central Asia,High income,1.4141420552544748,金牛（高份额·低增速）,60.790949273178406,英国
+France,3160442622465.08,2.857007036943794,Europe & Central Asia,High income,1.1906404384718794,金牛（高份额·低增速）,56.21781410251629,法国
+Italy,2383435562458.12,2.15460079092772,Europe & Central Asia,High income,1.0684820072613066,金牛（高份额·低增速）,48.8204420551281,意大利
+Canada,2270076189683.46,2.052125104953036,North America,High income,1.8596060196237607,金牛（高份额·低增速）,47.64531655560135,加拿大
+Russian Federation,2186462268813.08,1.976538996027948,Europe & Central Asia,High income,1.542709646246876,金牛（高份额·低增速）,46.759622205628226,俄罗斯
+Brazil,2185821610689.31,1.975959847792547,Latin America & Caribbean,Upper middle income,0.8233799802715769,金牛（高份额·低增速）,46.75277115518726,巴西
+"Korea, Rep.",1875388209406.8,1.6953313036569295,East Asia & Pacific,High income,2.515410368554094,金牛（高份额·低增速）,43.30575261332841,"Korea, Rep."
+Mexico,1830489311088.89,1.6547431697248414,Latin America & Caribbean,Upper middle income,1.311508054725552,金牛（高份额·低增速）,42.78421801422681,Mexico
+Australia,1757022451652.83,1.588329898084026,East Asia & Pacific,High income,2.330200688408013,金牛（高份额·低增速）,41.9168516428993,Australia
+Spain,1725671652742.19,1.5599891041506604,Europe & Central Asia,High income,2.112519814500957,金牛（高份额·低增速）,41.541204276503464,Spain
+Indonesia,1396301788461.69,1.2622421957531775,East Asia & Pacific,Upper middle income,4.197183668192439,明星（高份额·高增速）,37.3671217577925,Indonesia
+Turkiye,1359123768774.12,1.2286336552557158,Europe & Central Asia,Upper middle income,4.874593226926871,明星（高份额·高增速）,36.86629583744644,Turkiye
+Saudi Arabia,1254140800000.0,1.1337301507861528,Middle East & North Africa,High income,2.958391640173197,明星（高份额·高增速）,35.41385039783164,Saudi Arabia
+Netherlands,1213936238063.28,1.0973856477871204,Europe & Central Asia,High income,1.942846763212902,金牛（高份额·低增速）,34.84158776610618,Netherlands
+Switzerland,969919786394.884,0.8767973306346026,Europe & Central Asia,High income,1.8691017633037932,金牛（高份额·低增速）,31.14353522634969,Switzerland
+Poland,917767106146.761,0.8296518537937195,Europe & Central Asia,High income,3.653128679856299,明星（高份额·高增速）,30.294671250019547,Poland
+Belgium,670983130618.828,0.6065617240515967,Europe & Central Asia,High income,1.6260102552968503,金牛（高份额·低增速）,25.90334207431211,Belgium
+Argentina,638365455340.04,0.5770756871471965,Latin America & Caribbean,Upper middle income,0.08262306992659063,金牛（高份额·低增速）,25.26589510268813,Argentina
+Ireland,609157459747.205,0.550671964975311,Europe & Central Asia,High income,7.716461891634974,明星（高份额·高增速）,24.681115447791353,Ireland
+Sweden,604827393488.582,0.5467576304186945,Europe & Central Asia,High income,1.795479961765789,金牛（高份额·低增速）,24.593238775903064,Sweden
+Singapore,572877260178.427,0.517875044463944,East Asia & Pacific,High income,3.2366320729989573,明星（高份额·高增速）,23.934854505060752,Singapore
+United Arab Emirates,552324919095.872,0.4992959433338845,Middle East & North Africa,High income,2.5111696394485294,金牛（高份额·低增速）,23.501593969258167,United Arab Emirates
+Israel,542284494490.778,0.4902195046266117,Middle East & North Africa,High income,3.526429007206744,明星（高份额·高增速）,23.28700269443833,Israel
+Austria,534790720466.822,0.4834452113780889,Europe & Central Asia,High income,1.192334197313949,金牛（高份额·低增速）,23.125542598322358,Austria
+Thailand,529385520941.539,0.478558967606394,East Asia & Pacific,Upper middle income,1.9975228803779554,金牛（高份额·低增速）,23.008379363647908,Thailand
+Norway,500886328034.123,0.4527959956400817,Europe & Central Asia,High income,1.710436289236239,金牛（高份额·低增速）,22.380489897098386,Norway
+Viet Nam,476324572783.807,0.430592426085919,East Asia & Pacific,Upper middle income,6.124312124562192,明星（高份额·高增速）,21.82486134626763,Viet Nam
+"Iran, Islamic Rep.",475252089215.416,0.4296229121703303,Middle East & North Africa,Upper middle income,2.5553302795505273,金牛（高份额·低增速）,21.800277273819614,"Iran, Islamic Rep."
+Philippines,461671157904.74,0.4173458924747194,East Asia & Pacific,Upper middle income,4.669847239114788,明星（高份额·高增速）,21.486534339086422,Philippines
+Bangladesh,450119432068.852,0.4069032532800121,South Asia,Lower middle income,6.285658134237826,明星（高份额·高增速）,21.216018289699225,Bangladesh
+Denmark,424524722037.047,0.3837659034197044,Europe & Central Asia,High income,2.083999477745735,金牛（高份额·低增速）,20.603997719788435,Denmark
+Malaysia,422227005428.688,0.3816887916656983,East Asia & Pacific,Upper middle income,3.953167871239649,明星（高份额·高增速）,20.548163067016183,Malaysia
+Colombia,420504033143.211,0.3801312427612897,Latin America & Caribbean,Upper middle income,2.4485571489019975,金牛（高份额·低增速）,20.50619499427456,Colombia
+"Hong Kong SAR, China",408368682415.423,0.3691610127755831,East Asia & Pacific,High income,1.0844754749819163,金牛（高份额·低增速）,20.20813406565344,"Hong Kong SAR, China"
+South Africa,401144998373.585,0.362630878042717,Sub-Saharan Africa,Upper middle income,0.6704048684515129,金牛（高份额·低增速）,20.028604503898542,South Africa
+"Egypt, Arab Rep.",389059910593.1,0.3517060852350568,Middle East & North Africa,Lower middle income,4.330732354767042,明星（高份额·高增速）,19.72460165866728,"Egypt, Arab Rep."
+Romania,382564217988.866,0.345834047138809,Europe & Central Asia,High income,3.247852163725873,明星（高份额·高增速）,19.559248911675162,Romania
+Pakistan,371747087751.306,0.3360554746728608,Middle East & North Africa,Lower middle income,3.6228205414512438,明星（高份额·高增速）,19.280743962599214,Pakistan
+Czechia,347082562221.377,0.3137590018620605,Europe & Central Asia,High income,2.1553402881395956,金牛（高份额·低增速）,18.630151964527208,Czechia
+Chile,329260633698.726,0.2976481650953392,Latin America & Caribbean,High income,1.9852047599735467,金牛（高份额·低增速）,18.145540325345124,Chile
+Portugal,313656884870.859,0.2835425395456028,Europe & Central Asia,High income,2.150788224492195,金牛（高份额·低增速）,17.710360946938913,Portugal
+Finland,298729432711.719,0.2700482791027284,Europe & Central Asia,High income,0.8774173799602325,金牛（高份额·低增速）,17.283791039922896,Finland
+Peru,291751523018.903,0.2637403218078151,Latin America & Caribbean,Upper middle income,2.282449495692873,金牛（高份额·低增速）,17.080735435539744,Peru
+Kazakhstan,291480274648.826,0.2634951161215732,Europe & Central Asia,Upper middle income,2.9842962135293583,明星（高份额·高增速）,17.072793404971137,Kazakhstan
+Iraq,279641257615.385,0.2527927686925741,Middle East & North Africa,Upper middle income,1.7046655426039337,金牛（高份额·低增速）,16.722477615933144,Iraq
+Algeria,269322281664.773,0.2434645224857319,Middle East & North Africa,Upper middle income,2.0751580031455052,金牛（高份额·低增速）,16.411041455823973,Algeria
+New Zealand,261497198363.906,0.2363907291201017,East Asia & Pacific,High income,2.4646747627999233,金牛（高份额·低增速）,16.170875003038827,New Zealand
+Greece,256238371778.118,0.2316368049530036,Europe & Central Asia,High income,1.3798425042520712,金牛（高份额·低增速）,16.007447384830538,Greece
+Nigeria,252261880140.271,0.2280420981512027,Sub-Saharan Africa,Lower middle income,1.1953526670186454,金牛（高份额·低增速）,15.882754173639754,Nigeria
+Hungary,222848211034.367,0.2014524492771603,Europe & Central Asia,High income,2.7311567086935495,金牛（高份额·低增速）,14.92810138746274,Hungary
+Qatar,216294505494.505,0.1955279680945724,Middle East & North Africa,High income,1.4504018077637904,金牛（高份额·低增速）,14.706954324213596,Qatar
+Ukraine,190833835445.1,0.172511788974789,Europe & Central Asia,Upper middle income,-2.4422033435162693,金牛（高份额·低增速）,13.814262030419865,Ukraine
+Kuwait,160903106639.233,0.1454547235462382,Middle East & North Africa,High income,0.37217729144263245,金牛（高份额·低增速）,12.684758832521531,Kuwait
+Morocco,160610994054.734,0.1451906568286332,Middle East & North Africa,Lower middle income,2.539392079122038,金牛（高份额·低增速）,12.673239288150999,Morocco
+Ethiopia,149740297952.375,0.1353636613818078,Sub-Saharan Africa,Low income,7.56675423912021,明星（高份额·高增速）,12.236841829180232,Ethiopia
+Slovak Republic,140934076532.375,0.1274029294302176,Europe & Central Asia,High income,2.375662066469597,金牛（高份额·低增速）,11.871565883756658,Slovak Republic
+Puerto Rico (US),126029527033.705,0.1139293727525887,Latin America & Caribbean,High income,-0.5154332352371949,金牛（高份额·低增速）,11.226287321893423,Puerto Rico (US)
+Dominican Republic,124282245638.568,0.112349848667594,Latin America & Caribbean,Upper middle income,4.677376539840883,明星（高份额·高增速）,11.148194725540455,Dominican Republic
+Ecuador,123802374000.0,0.1119160497311814,Latin America & Caribbean,Upper middle income,1.1355393631537147,金牛（高份额·低增速）,11.126651517864662,Ecuador
+Uzbekistan,121356065241.228,0.1097046122291465,Europe & Central Asia,Lower middle income,6.0627954330543465,明星（高份额·高增速）,11.016172894486905,Uzbekistan
+"Venezuela, RB",120566112397.063,0.10899050312981,Latin America & Caribbean,Lower middle income,-10.785957582787686,金牛（高份额·低增速）,10.980260124289543,"Venezuela, RB"
+Kenya,120397537849.826,0.1088381135042929,Sub-Saharan Africa,Lower middle income,4.616318704181954,明星（高份额·高增速）,10.972581184471865,Kenya
+Bulgaria,113349149166.793,0.1024664439402261,Europe & Central Asia,High income,2.882050866536301,明星（高份额·高增速）,10.646555741966178,Bulgaria
+Guatemala,113215575150.885,0.1023456944285313,Latin America & Caribbean,Upper middle income,3.467959610187754,明星（高份额·高增速）,10.640280783460792,Guatemala
+Oman,107137198699.61,0.0968509057647393,Middle East & North Africa,High income,2.028561464211087,金牛（高份额·低增速）,10.350710057750144,Oman
+Angola,103080538044.058,0.0931837270104023,Sub-Saharan Africa,Lower middle income,0.4109893096227557,金牛（高份额·低增速）,10.152858614403039,Angola
+Sri Lanka,99616111265.7633,0.0900519214796807,South Asia,Upper middle income,1.202054368106209,金牛（高份额·低增速）,9.98078710652438,Sri Lanka
+Costa Rica,96715644330.6612,0.0874299297418443,Latin America & Caribbean,High income,3.554901395426757,明星（高份额·高增速）,9.834411234571249,Costa Rica
+Luxembourg,93279851863.4062,0.0843240093284657,Europe & Central Asia,High income,1.8430934886940253,金牛（高份额·低增速）,9.658149505128103,Luxembourg
+Croatia,92981894167.9687,0.0840546586917778,Europe & Central Asia,High income,3.3100746047506346,明星（高份额·高增速）,9.64271197163789,Croatia
+Serbia,90088366320.4062,0.0814389398164163,Europe & Central Asia,Upper middle income,3.3194764681782507,明星（高份额·高增速）,9.491489151887928,Serbia
+Cote d'Ivoire,87113179149.284,0.0787494017676315,Sub-Saharan Africa,Lower middle income,5.994860196704854,明星（高份额·高增速）,9.33344412043507,Cote d'Ivoire
+Panama,86523959100.0,0.0782167530129455,Latin America & Caribbean,High income,3.8530910560184317,明星（高份额·高增速）,9.301825578885039,Panama
+Lithuania,85503938573.5664,0.077294665137933,Europe & Central Asia,High income,3.2218861882992833,明星（高份额·高增速）,9.24683397566791,Lithuania
+Ghana,83288585604.0268,0.0752920092509698,Sub-Saharan Africa,Lower middle income,4.448652545160803,明星（高份额·高增速）,9.126258028569366,Ghana
+Uruguay,82322859144.2816,0.0744190026437171,Latin America & Caribbean,High income,1.1497086516251365,金牛（高份额·低增速）,9.073194539096006,Uruguay
+Tanzania,79235713444.9777,0.0716282552578011,Sub-Saharan Africa,Lower middle income,5.244630192576771,明星（高份额·高增速）,8.901444458343697,Tanzania
+Belarus,78591839299.7087,0.071046199772641,Europe & Central Asia,Upper middle income,0.585662588360436,金牛（高份额·低增速）,8.865203849867678,Belarus
+"Congo, Dem. Rep.",75716176105.0704,0.0684466303564578,Sub-Saharan Africa,Low income,4.831058720090886,明星（高份额·高增速）,8.701504243811549,"Congo, Dem. Rep."
+Azerbaijan,74426000000.0,0.0672803246672225,Europe & Central Asia,Upper middle income,1.33136969670673,金牛（高份额·低增速）,8.627050480900179,Azerbaijan
+Myanmar,74068349523.8095,0.0669570123817915,East Asia & Pacific,Lower middle income,1.2591047686240975,金牛（高份额·低增速）,8.606297085495568,Myanmar
+Slovenia,72972015197.3859,0.0659659376306884,Europe & Central Asia,High income,2.9156180762661688,明星（高份额·高增速）,8.542365901633218,Slovenia
+Jordan,58618380563.3803,0.0529904022219524,Middle East & North Africa,Upper middle income,2.1807192622124605,金牛（高份额·低增速）,7.656264138819944,Jordan
+Bolivia,54881327452.9667,0.049612145341732,Latin America & Caribbean,Lower middle income,1.8507989324443308,金牛（高份额·低增速）,7.408193265092826,Bolivia
+Uganda,53911907079.0485,0.0487357994747469,Sub-Saharan Africa,Low income,4.824068659022629,明星（高份额·高增速）,7.342472817726225,Uganda
+Cameroon,53296694320.2057,0.0481796535827957,Sub-Saharan Africa,Lower middle income,3.530155990332018,明星（高份额·高增速）,7.300458500683755,Cameroon
+Tunisia,51412122479.8468,0.0464760203729221,Middle East & North Africa,Lower middle income,0.8170865335141997,金牛（高份额·低增速）,7.1702247161331565,Tunisia
+Sudan,49672435513.1126,0.0449033615716804,Sub-Saharan Africa,Low income,-5.385550563168218,金牛（高份额·低增速）,7.047867444348865,Sudan
+"Macao SAR, China",49467258923.3244,0.0447178840829659,East Asia & Pacific,High income,-0.6607834075332941,金牛（高份额·低增速）,7.033296447848932,"Macao SAR, China"
+Libya,48487151215.345,0.0438318769778992,Middle East & North Africa,Upper middle income,1.4618099916668514,金牛（高份额·低增速）,6.9632715885096,Libya
+Bahrain,47210732712.766,0.0426780080172568,Middle East & North Africa,High income,2.628156971412876,金牛（高份额·低增速）,6.871006673899101,Bahrain
+Cambodia,46352647037.2406,0.041902307551806,East Asia & Pacific,Lower middle income,5.499530381051665,明星（高份额·高增速）,6.80827783196607,Cambodia
+Paraguay,44738819362.3269,0.0404434242324668,Latin America & Caribbean,Upper middle income,2.7699667946425865,明星（高份额·高增速）,6.688708347829714,Paraguay
+Turkmenistan,44249447717.2312,0.04000103738963,Europe & Central Asia,Upper middle income,6.25274560896103,明星（高份额·高增速）,6.652025835580556,Turkmenistan
+Latvia,44001275012.6141,0.039776691863333,Europe & Central Asia,High income,1.873020758895505,金牛（高份额·低增速）,6.633345687706475,Latvia
+Nepal,43298911699.9284,0.0391417627832825,South Asia,Lower middle income,4.091372202413379,问题（低份额·高增速）,6.580190855889242,Nepal
+Estonia,43130419829.35,0.038989447896599,Europe & Central Asia,High income,1.87131976922581,瘦狗（低份额·低增速）,6.567375414071439,Estonia
+Zimbabwe,41521975830.2351,0.0375354313638081,Sub-Saharan Africa,Lower middle income,1.8480754397822041,瘦狗（低份额·低增速）,6.443754792838963,Zimbabwe
+Cyprus,37634551820.7367,0.0340212407653854,Europe & Central Asia,High income,5.172455714678059,问题（低份额·高增速）,6.134700630082669,Cyprus
+Honduras,36980171442.0603,0.0334296877552383,Latin America & Caribbean,Lower middle income,3.2726042333912186,问题（低份额·高增速）,6.081132414448834,Honduras
+El Salvador,34879730000.0,0.0315309106858498,Latin America & Caribbean,Upper middle income,2.3971675102799628,瘦狗（低份额·低增速）,5.9059063656648,El Salvador
+Georgia,34189423333.141,0.0309068806873786,Europe & Central Asia,Upper middle income,5.510718650393143,问题（低份额·高增速）,5.847172251023652,Georgia
+Iceland,33186621855.0053,0.0300003586517225,Europe & Central Asia,High income,2.9552046397404608,问题（低份额·高增速）,5.76078309390358,Iceland
+Senegal,32169996051.8502,0.0290813395710067,Sub-Saharan Africa,Lower middle income,5.326682682172401,问题（低份额·高增速）,5.67186001694772,Senegal
+Papua New Guinea,30803971189.4102,0.0278464673993401,East Asia & Pacific,Lower middle income,2.908045304572804,问题（低份额·高增速）,5.550132538003953,Papua New Guinea
+Bosnia and Herzegovina,29737363103.0492,0.0268822648579828,Europe & Central Asia,Upper middle income,3.10122295599089,问题（低份额·高增速）,5.453197511831861,Bosnia and Herzegovina
+Albania,27037474263.2977,0.0244415936180413,Europe & Central Asia,Upper middle income,3.3294636306414827,问题（低份额·高增速）,5.199757135030222,Albania
+Mali,26761281076.7658,0.0241919178695026,Sub-Saharan Africa,Low income,4.270116038055272,问题（低份额·高增速）,5.17313068429223,Mali
+Lebanon,25971643441.3408,0.0234780937155664,Middle East & North Africa,Lower middle income,-4.518125164369069,瘦狗（低份额·低增速）,5.096238165680721,Lebanon
+Armenia,25955275380.0321,0.0234632971595373,Europe & Central Asia,Upper middle income,4.782325922120845,问题（低份额·高增速）,5.094632016155053,Armenia
+Trinidad and Tobago,25633544529.4849,0.0231724558395648,Latin America & Caribbean,High income,-1.8671780291137252,瘦狗（低份额·低增速）,5.062958080952765,Trinidad and Tobago
+Zambia,25303185342.2511,0.0228738145935769,Sub-Saharan Africa,Lower middle income,3.3238071494492427,问题（低份额·高增速）,5.030227166068258,Zambia
+Malta,25042712191.3281,0.0226383495926204,Middle East & North Africa,High income,6.612625241903247,问题（低份额·高增速）,5.004269396358284,Malta
+Guinea,25008678293.4073,0.0226075833052772,Sub-Saharan Africa,Lower middle income,6.182795247528494,问题（低份额·高增速）,5.000867754041022,Guinea
+Guyana,24662714628.2974,0.0222948357746877,Latin America & Caribbean,High income,16.50465300796604,问题（低份额·高增速）,4.96615692747394,Guyana
+Haiti,24255657481.2502,0.0219268603761515,Latin America & Caribbean,Lower middle income,-0.7419370719845109,瘦狗（低份额·低增速）,4.9250032975877485,Haiti
+Mongolia,23794540024.5132,0.0215100150237345,East Asia & Pacific,Upper middle income,3.691359290792362,问题（低份额·高增速）,4.877964742032603,Mongolia
+Burkina Faso,23136514855.7646,0.0209151671615276,Sub-Saharan Africa,Low income,4.682696735854175,问题（低份额·高增速）,4.81004312410654,Burkina Faso
+Mozambique,22752244245.473,0.0205677905536152,Sub-Saharan Africa,Low income,3.3474639473004775,问题（低份额·高增速）,4.769931262132925,Mozambique
+Jamaica,22014429050.9995,0.0199008133436538,Latin America & Caribbean,Upper middle income,1.559739680158767,瘦狗（低份额·低增速）,4.69195364970707,Jamaica
+Benin,21482643706.4249,0.0194200849606123,Sub-Saharan Africa,Lower middle income,5.52602627469454,问题（低份额·高增速）,4.6349372926097825,Benin
+Gabon,20895684425.6752,0.0188894799170082,Sub-Saharan Africa,Upper middle income,1.9558292873424143,瘦狗（低份额·低增速）,4.571179763001583,Gabon
+Chad,19906706689.7582,0.017995454399566,Sub-Saharan Africa,Low income,2.115556689589937,瘦狗（低份额·低增速）,4.461693253660341,Chad
+Niger,19729786046.7618,0.0178355199908764,Sub-Saharan Africa,Low income,5.552477065034744,问题（低份额·高增速）,4.441822379019877,Niger
+Nicaragua,19696311850.3289,0.0178052596678175,Latin America & Caribbean,Lower middle income,2.667998354600809,瘦狗（低份额·低增速）,4.438052709277899,Nicaragua
+Botswana,19286251067.5078,0.0174345690139936,Sub-Saharan Africa,Upper middle income,2.1129724987736243,瘦狗（低份额·低增速）,4.3916114431388165,Botswana
+Moldova,18206842140.7615,0.0164587946469688,Europe & Central Asia,Upper middle income,1.7016672748914052,瘦狗（低份额·低增速）,4.266947637452503,Moldova
+Kyrgyz Republic,18161630698.9052,0.0164179239769507,Europe & Central Asia,Lower middle income,4.80668530781283,问题（低份额·高增速）,4.261646477466802,Kyrgyz Republic
+Afghanistan,17778508875.7396,0.016071585860571,Middle East & North Africa,Low income,-1.6521391082166992,瘦狗（低份额·低增速）,4.2164569102197165,Afghanistan
+Madagascar,17592832696.1336,0.0159037365384676,Sub-Saharan Africa,Low income,2.828191970779681,问题（低份额·高增速）,4.1943810861834665,Madagascar
+North Macedonia,16951682221.3962,0.0153241432229479,Europe & Central Asia,Upper middle income,2.2394784134591283,瘦狗（低份额·低增速）,4.1172420649502985,North Macedonia
+Lao PDR,16502933121.3379,0.0149184787354563,East Asia & Pacific,Lower middle income,4.62785180605132,问题（低份额·高增速）,4.062380228552947,Lao PDR
+West Bank and Gaza,16016900000.0,0.0144791098831381,Middle East & North Africa,Lower middle income,-1.1959666790120282,瘦狗（低份额·低增速）,4.0021119424623794,West Bank and Gaza
+"Bahamas, The",15832800000.0,0.014312685410894,Latin America & Caribbean,High income,1.5212583058725082,瘦狗（低份额·低增速）,3.9790451115814207,"Bahamas, The"
+"Congo, Rep.",15719986076.6464,0.0142107028054844,Sub-Saharan Africa,Lower middle income,-1.555084527781736,瘦狗（低份额·低增速）,3.9648437644687085,"Congo, Rep."
+Brunei Darussalam,15340808592.48,0.0138679303302578,East Asia & Pacific,High income,0.5255486147438537,瘦狗（低份额·低增速）,3.9167344296594835,Brunei Darussalam
+Rwanda,15111064181.9687,0.0136602437888653,Sub-Saharan Africa,Low income,6.722738947826223,问题（低份额·高增速）,3.88729522701437,Rwanda
+Mauritius,14938055690.3609,0.0135038459240659,Sub-Saharan Africa,Upper middle income,2.388548810219082,瘦狗（低份额·低增速）,3.864978097009206,Mauritius
+Tajikistan,14425113699.7925,0.0130401517357326,Europe & Central Asia,Lower middle income,7.343758828214475,问题（低份额·高增速）,3.7980407712125075,Tajikistan
+Namibia,13641190683.4641,0.0123314935376206,Sub-Saharan Africa,Lower middle income,1.1750106056815701,瘦狗（低份额·低增速）,3.69339825681771,Namibia
+Equatorial Guinea,13254388261.1258,0.0119818281981292,Sub-Saharan Africa,Upper middle income,-4.3900696157710195,瘦狗（低份额·低增速）,3.640657668763406,Equatorial Guinea
+"Somalia, Fed. Rep.",11967000000.0,0.0108180426906276,Sub-Saharan Africa,Low income,4.778392816152244,问题（低份额·高增速）,3.459335196247973,"Somalia, Fed. Rep."
+Malawi,11311971400.3864,0.0102259036955409,Sub-Saharan Africa,Low income,2.914171300284485,问题（低份额·高增速）,3.363327429850742,Malawi
+Kosovo,11203038332.3359,0.010127429342688,Europe & Central Asia,Upper middle income,4.210885955579569,问题（低份额·高增速）,3.347094013071025,Kosovo
+Monaco,11125788838.2812,0.0100575966089608,Europe & Central Asia,High income,4.805634678460335,问题（低份额·高增速）,3.3355342657932927,Monaco
+Mauritania,10879212033.4823,0.0098346937593884,Sub-Saharan Africa,Lower middle income,4.079424705070833,问题（低份额·高增速）,3.2983650546114966,Mauritania
+Togo,10643440332.2445,0.0096215586102923,Sub-Saharan Africa,Lower middle income,4.964495509168065,问题（低份额·高增速）,3.2624285941985764,Togo
+Bermuda,9194499000.0,0.008311730818161,North America,High income,1.3231736060126176,瘦狗（低份额·低增速）,3.0322432290302834,Bermuda
+New Caledonia,8548919387.12607,0.0077281336081444,East Asia & Pacific,High income,-1.9609806629538262,瘦狗（低份额·低增速）,2.9238535167012163,New Caledonia
+Montenegro,8274290505.96367,0.0074798719752795,Europe & Central Asia,Upper middle income,3.131026868488629,问题（低份额·高增速）,2.8765066497339564,Montenegro
+Cayman Islands,7765336505.34319,0.0070197828880999,Latin America & Caribbean,High income,3.215133315359653,问题（低份额·高增速）,2.7866353377044493,Cayman Islands
+Barbados,7597571450.0,0.0068681250347784,Latin America & Caribbean,High income,0.9815125375560951,瘦狗（低份额·低增速）,2.7563692513885,Barbados
+Maldives,7061608267.25451,0.0063836199297775,South Asia,Upper middle income,4.589729317756519,问题（低份额·高增速）,2.657368673566863,Maldives
+Sierra Leone,6971127234.07241,0.0063018260232299,Sub-Saharan Africa,Low income,3.308168621689922,问题（低份额·高增速）,2.640289233033459,Sierra Leone
+French Polynesia,6323716355.05009,0.0057165733677907,East Asia & Pacific,High income,1.1663654761513431,瘦狗（低份额·低增速）,2.5147000527001406,French Polynesia
+Fiji,5968125909.27126,0.0053951233282808,East Asia & Pacific,Upper middle income,2.093856636902869,瘦狗（低份额·低增速）,2.442974807334546,Fiji
+Eswatini,4858885840.77236,0.0043923819214808,Sub-Saharan Africa,Lower middle income,2.260352473192806,瘦狗（低份额·低增速）,2.204288057576042,Eswatini
+Liberia,4779300900.0,0.0043204379683759,Sub-Saharan Africa,Low income,1.4653812813986367,瘦狗（低份额·低增速）,2.186161224612677,Liberia
+Suriname,4416775112.72266,0.003992718452773,Latin America & Caribbean,Upper middle income,-1.426133485777037,瘦狗（低份额·低增速）,2.1016125029897066,Suriname
+Aruba,4167588070.29217,0.0037674559757141,Latin America & Caribbean,High income,2.5130606517838716,瘦狗（低份额·低增速）,2.0414671367161827,Aruba
+Djibouti,4152145939.98458,0.0037534964516143,Middle East & North Africa,Lower middle income,5.462885052067423,问题（低份额·高增速）,2.0376815109296595,Djibouti
+Faroe Islands,4052937169.76536,0.0036638127621754,Europe & Central Asia,High income,2.426631543460811,瘦狗（低份额·低增速）,2.0131907931851267,Faroe Islands
+Andorra,4044249678.65625,0.0036559593611816,Europe & Central Asia,High income,2.07593914462314,瘦狗（低份额·低增速）,2.0110319934442242,Andorra
+Curacao,3561178212.2905,0.0032192678139459,Latin America & Caribbean,High income,-0.78390625520246,瘦狗（低份额·低增速）,1.8871084262146942,Curacao
+Bhutan,3346603858.7495,0.0030252948452052,South Asia,Lower middle income,3.6734457784090457,问题（低份额·高增速）,1.8293725314296976,Bhutan
+Belize,3203631800.0,0.0028960496011909,Latin America & Caribbean,Upper middle income,2.0860367143304526,瘦狗（低份额·低增速）,1.7898692130991025,Belize
+Burundi,3037579858.38142,0.0027459403847381,Sub-Saharan Africa,Low income,2.951525543722444,问题（低份额·高增速）,1.742865416026556,Burundi
+Central African Republic,2751494281.06887,0.0024873220185193,Sub-Saharan Africa,Low income,2.4905199318049354,瘦狗（低份额·低增速）,1.658762876685173,Central African Republic
+Cabo Verde,2713721857.39153,0.0024531761430392,Sub-Saharan Africa,Upper middle income,2.998908917354459,问题（低份额·高增速）,1.6473378091306985,Cabo Verde
+St. Lucia,2605148148.14815,0.002355026646785,Latin America & Caribbean,Upper middle income,1.953391725282816,瘦狗（低份额·低增速）,1.614047133186683,St. Lucia
+"Gambia, The",2404888737.54853,0.002173994236568,Sub-Saharan Africa,Low income,4.691165784757723,问题（低份额·高增速）,1.5507703690580787,"Gambia, The"
+Lesotho,2391282547.80028,0.0021616943835093,Sub-Saharan Africa,Lower middle income,0.33855115700056615,瘦狗（低份额·低增速）,1.5463772333425891,Lesotho
+Seychelles,2228608684.29911,0.0020146389143019,Sub-Saharan Africa,High income,4.364094630001358,问题（低份额·高增速）,1.4928525326699587,Seychelles
+Guinea-Bissau,2197777209.94218,0.0019867675843271,Sub-Saharan Africa,Low income,4.768808390712209,问题（低份额·高增速）,1.4824902056817035,Guinea-Bissau
+Antigua and Barbuda,2162366666.66667,0.0019547568239985,Latin America & Caribbean,High income,1.933284902043697,瘦狗（低份额·低增速）,1.4704987815930586,Antigua and Barbuda
+Timor-Leste,1865608515.41321,0.0016864905626922,East Asia & Pacific,Lower middle income,0.36663635227751623,瘦狗（低份额·低增速）,1.365872803526452,Timor-Leste
+Sint Maarten (Dutch part),1797836648.04469,0.0016252255042468,Latin America & Caribbean,High income,0.6441799038461316,瘦狗（低份额·低增速）,1.34083431043686,Sint Maarten (Dutch part)
+Turks and Caicos Islands,1745378000.0,0.0015778034357217,Latin America & Caribbean,High income,5.164650718471897,问题（低份额·高增速）,1.3211275487249519,Turks and Caicos Islands
+Comoros,1610082688.26617,0.0014554978906245,Sub-Saharan Africa,Lower middle income,2.4402850771987783,瘦狗（低份额·低增速）,1.2688903373681155,Comoros
+Solomon Islands,1583964703.75061,0.0014318875061102,East Asia & Pacific,Lower middle income,1.4107268574127918,瘦狗（低份额·低增速）,1.2585565953705102,Solomon Islands
+Grenada,1351270370.37037,0.0012215342653335,Latin America & Caribbean,Upper middle income,2.311150470208778,瘦狗（低份额·低增速）,1.1624415556794112,Grenada
+Vanuatu,1297956614.77783,0.0011733391885392,East Asia & Pacific,Lower middle income,2.4884479472368826,瘦狗（低份额·低增速）,1.1392789890004247,Vanuatu
+Samoa,1175749785.65113,0.0010628654946661,East Asia & Pacific,Upper middle income,2.9760924547282297,问题（低份额·高增速）,1.0843199646096764,Samoa
+St. Vincent and the Grenadines,1157207407.40741,0.0010461033788956,Latin America & Caribbean,Upper middle income,2.23306300728785,瘦狗（低份额·低增速）,1.075735751663674,St. Vincent and the Grenadines
+St. Kitts and Nevis,1122388888.88889,0.001014627802748,Latin America & Caribbean,High income,0.6686053546271387,瘦狗（低份额·低增速）,1.0594285671478234,St. Kitts and Nevis
+Sao Tome and Principe,824992558.045383,0.0007457846337749,Sub-Saharan Africa,Lower middle income,2.364097791444042,瘦狗（低份额·低增速）,0.9082910095588214,Sao Tome and Principe
+Dominica,688881481.481481,0.0006227416458134,Latin America & Caribbean,Upper middle income,0.06182708347131083,瘦狗（低份额·低增速）,0.8299888441909813,Dominica
+Tonga,647488243.847291,0.0005853225924308,East Asia & Pacific,Upper middle income,1.4142838968207228,瘦狗（低份额·低增速）,0.8046665420205384,Tonga
+"Micronesia, Fed. Sts.",481121300.0,0.0004349286172616,East Asia & Pacific,Upper middle income,1.2875748910902596,瘦狗（低份额·低增速）,0.6936290795518885,"Micronesia, Fed. Sts."
+Kiribati,343153235.077124,0.0003102069312685,East Asia & Pacific,Lower middle income,4.837972850022543,问题（低份额·高增速）,0.585792826071747,Kiribati
+Palau,321501812.5,0.0002906342719761,East Asia & Pacific,High income,-0.051632095251452625,瘦狗（低份额·低增速）,0.5670112983883125,Palau
+Marshall Islands,285000000.0,0.0002576370156955,East Asia & Pacific,Upper middle income,1.9635244552277165,瘦狗（低份额·低增速）,0.5338539126015656,Marshall Islands
+Naoero,167833414.846177,0.0001517196495963,East Asia & Pacific,High income,1.8108861224771733,瘦狗（低份额·低增速）,0.409674767158263,Naoero
+Tuvalu,56752265.8012166,5.130345401749877e-05,East Asia & Pacific,Upper middle income,2.322738294812021,瘦狗（低份额·低增速）,0.23822734058293268,Tuvalu

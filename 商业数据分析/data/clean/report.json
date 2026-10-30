@@ -1,0 +1,77 @@
+{
+  "indicators": {
+    "NY.GDP.MKTP.CD": "GDP现价",
+    "NY.GDP.MKTP.KD.ZG": "GDP增长率",
+    "NY.GDP.PCAP.KD.ZG": "人均GDP增长率",
+    "SP.POP.TOTL": "总人口",
+    "NE.TRD.GNFS.ZS": "贸易占GDP比重",
+    "NE.EXP.GNFS.ZS": "出口占GDP比重",
+    "GC.DOD.TOTL.GD.ZS": "政府债务占GDP",
+    "SL.UEM.TOTL.ZS": "失业率"
+  },
+  "year_range": [
+    2000,
+    2024
+  ],
+  "country_count": 217,
+  "country_year_rows": 5425,
+  "master_long_rows": 43400,
+  "missing_rate_overall": 0.1772,
+  "missing_rate_by_indicator": {
+    "政府债务占GDP": 0.7895,
+    "出口占GDP比重": 0.1797,
+    "贸易占GDP比重": 0.1797,
+    "失业率": 0.1399,
+    "GDP增长率": 0.0474,
+    "人均GDP增长率": 0.0474,
+    "GDP现价": 0.0337,
+    "总人口": 0.0
+  },
+  "io_log": {
+    "NY.GDP.MKTP.CD": {
+      "raw_rows": 17556
+    },
+    "NY.GDP.MKTP.KD.ZG": {
+      "raw_rows": 17556
+    },
+    "NY.GDP.PCAP.KD.ZG": {
+      "raw_rows": 17556
+    },
+    "SP.POP.TOTL": {
+      "raw_rows": 17556
+    },
+    "NE.TRD.GNFS.ZS": {
+      "raw_rows": 17556
+    },
+    "NE.EXP.GNFS.ZS": {
+      "raw_rows": 17556
+    },
+    "GC.DOD.TOTL.GD.ZS": {
+      "raw_rows": 17556
+    },
+    "SL.UEM.TOTL.ZS": {
+      "raw_rows": 17556
+    },
+    "raw_total_rows": 140448,
+    "dropped_aggregates_rows": 25872,
+    "dropped_out_of_range_years": 71176,
+    "duplicate_rows_removed": 0,
+    "outlier_rule_count": 35,
+    "outlier_iqr_count": 1388
+  },
+  "region_counts": {
+    "Europe & Central Asia": 58,
+    "Sub-Saharan Africa": 48,
+    "Latin America & Caribbean": 42,
+    "East Asia & Pacific": 37,
+    "Middle East & North Africa": 23,
+    "South Asia": 6,
+    "North America": 3
+  },
+  "income_counts": {
+    "High income": 86,
+    "Upper middle income": 59,
+    "Lower middle income": 47,
+    "Low income": 25
+  }
+}

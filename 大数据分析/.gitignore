@@ -1,0 +1,11 @@
+# ===== IDE / OS 垃圾 =====
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
+
+# ===== 教材原始数据文件（版权，不入库；数值已硬编码进 .py 复现） =====
+*.xlsx
+*.xlsm
+*.pptx
