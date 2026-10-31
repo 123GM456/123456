@@ -5,6 +5,6 @@
 pandas>=2.0
 numpy>=1.24
 pyecharts>=2.0          # 交互图表生成（内置 ECharts 资源本地化）
-Pillow>=10.0            # 论文静态配图绘制（150 dpi PNG）
+matplotlib>=3.7         # 论文静态配图绘制（150 dpi PNG，中文字体用系统微软雅黑）
 python-docx>=1.1        # 论文 Word 文档自动生成
 openpyxl>=3.1           # 数据字典 / 明细表导出（可选）

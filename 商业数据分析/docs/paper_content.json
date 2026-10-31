@@ -130,11 +130,15 @@
   "S4": [
    {
     "k": "p",
-    "t": "课程的合规要求是「只用白名单渠道获取数据，严禁爬虫」。白名单指的是三类：官方数据下载、官方或社区维护的 Python 接口库、明确允许二次使用的公开数据集。本文采用第一类——从世界银行官方数据平台（databank.worldbank.org）按指标逐个下载的 CSV 数据包，每个包内含宽表数据文件、国家元数据（Metadata_Country）与指标元数据（Metadata_Indicator）。下载后在本地用 pandas 读取，全过程不发起任何网页抓取，不设置请求头伪装，不解析 HTML。"
+    "t": "课程的合规要求是「只用白名单渠道获取数据，严禁爬虫」。白名单指的是三类：官方数据下载、官方或社区维护的 Python 接口库、明确允许二次使用的公开数据集。本文采用第一类——从世界银行官方数据平台（https://databank.worldbank.org/source/world-development-indicators）按指标逐个下载的 CSV 数据包，下载日期为 2026 年 10 月 28 日，数据版本为 2026-10-08（各文件内 Last Updated Date 字段一致），许可协议为 CC BY 4.0。每个包内含宽表数据文件、国家元数据（Metadata_Country）与指标元数据（Metadata_Indicator）。下载后在本地用 pandas 读取，全过程不发起任何网页抓取，不设置请求头伪装，不解析 HTML。"
    },
    {
     "k": "p",
     "t": "之所以选择离线包而不是世界银行官方的 REST API（api.worldbank.org），是因为本次作业的数据年份跨度固定为 2000—2024，离线包体积仅 3.2 MB，既避免了对第三方服务的实时依赖，也让整个分析可以在无网络环境中完全复现。原始文件原样保存在 data/raw 目录下，未做任何手工修改；所有清洗逻辑都以代码形式写在 scripts/01_load_clean.py 中，可逐条审计。"
+   },
+   {
+    "k": "p",
+    "t": "需要说明的是，本文未对数据做任何抽样：全球 217 个经济体、2000—2024 年共 25 个年度的观测全部纳入分析，因此不涉及抽样方法与随机种子；清洗阶段剔除的只是区域聚合体与超出年份范围的列，剔除数量记录在 data/clean/report.json 中。若需复核，也可通过世行官方 API 端点重新取得同一批数据：https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.CD?format=csv&per_page=20000 。"
    }
   ],
   "S5": [
@@ -152,7 +156,7 @@
    },
    {
     "k": "b",
-    "t": "论文中的全部图表均由 Python 代码生成（交互图用 pyecharts + 本地 ECharts 渲染，静态配图用 Pillow 直接绘制并输出 150 dpi PNG），不存在 Excel 截图或手工修图；"
+    "t": "论文中的全部图表均由 Python 代码生成（交互图用 pyecharts + 本地 ECharts 渲染，静态配图用 Matplotlib 绘制并输出 150 dpi PNG），不存在 Excel 截图或手工修图；"
    },
    {
     "k": "b",
@@ -161,6 +165,10 @@
    {
     "k": "b",
     "t": "文中所有数字均由 scripts/ 目录下的脚本自动计算并在正文中直接引用，可通过 run_all.py 复现。"
+   },
+   {
+    "k": "b",
+    "t": "本文为个人独立完成，无分组、无组员分工：数据获取、清洗、建模、可视化、大屏与写作均由本人完成，AI 工具的使用情况已在第 7 章「AI 使用披露」中如实说明；"
    }
   ],
   "S6": [
@@ -868,7 +876,7 @@
    },
    {
     "k": "b",
-    "t": "使用范围：使用 AI 编程助手辅助编写与调试 Python 脚本（pandas 数据处理、pyecharts 绘图配置、python-docx 排版、Pillow 静态图绘制），以及辅助润色部分段落的表述。"
+    "t": "使用范围：使用 AI 编程助手辅助编写与调试 Python 脚本（pandas 数据处理、pyecharts 绘图配置、python-docx 排版、Matplotlib 静态图绘制），以及辅助润色部分段落的表述。"
    },
    {
     "k": "b",

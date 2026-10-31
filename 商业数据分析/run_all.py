@@ -10,11 +10,11 @@ run_all.py — 一键复现全部结果
     python run_all.py 1 2       # 只跑第 1、2 步
     python run_all.py --py 3=C:\\Python313\\python.exe   # 手动指定第 3 步的解释器
 
-为什么还要「挑解释器」：本机可能装了多个 Python，而 pandas、pyecharts、Pillow、
+为什么还要「挑解释器」：本机可能装了多个 Python，而 pandas、pyecharts、matplotlib、
 python-docx 不一定装在同一个解释器里。脚本会按每步的依赖自动挑一个能 import 的解释器，
 挑不到就明确报错，而不是让子进程抛一个难懂的 ModuleNotFoundError。
 
-依赖：pandas / numpy / pyecharts / Pillow / python-docx
+依赖：pandas / numpy / pyecharts / matplotlib / python-docx
 注意：03、05、06 需要中文字体（Windows 自带微软雅黑即可）。
 """
 import glob
@@ -34,9 +34,9 @@ STEPS = [
     ("03_visuals.py", "22 张交互图表 → outputs/figs/*.html", ["pandas", "pyecharts"]),
     ("04_dashboard.py", "联动数据大屏 → outputs/dashboard.html", ["pandas", "pyecharts"]),
     ("05_static_charts.py", "8 张论文静态配图（150dpi）→ outputs/figs_png/*.png",
-     ["pandas", "PIL"]),
+     ["pandas", "matplotlib"]),
     ("06_report.py", "生成课程论文 → 期末大论文_基于世界银行开放数据的全球宏观经济分析.docx",
-     ["docx", "PIL"]),
+     ["docx"]),
     ("07_index.py", "生成图表索引页 → outputs/index.html", []),
 ]
 

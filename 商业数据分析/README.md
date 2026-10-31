@@ -37,9 +37,23 @@
 
 ### 3.1 数据来源
 
-全部数据来自世界银行 **WDI 官方公开数据**（World Bank Open Data，许可协议 CC BY 4.0），
-经官方数据平台 [databank.worldbank.org](https://databank.worldbank.org/source/world-development-indicators)
-按指标逐个下载 CSV 数据包获得，原始文件原样保存在 `data/raw/`，未做任何手工修改。
+全部数据来自世界银行 **WDI 官方公开数据**（World Bank Open Data，许可协议 CC BY 4.0）。
+
+| 合规要素 | 内容 |
+| --- | --- |
+| 数据源名称 | World Bank Open Data — World Development Indicators (WDI) |
+| 官方页面 | https://databank.worldbank.org/source/world-development-indicators |
+| 获取方式 | 官方平台「Download → CSV」一次性下载（白名单①：官方下载文件），非爬虫 |
+| 数据文件命名 | `API_<指标代码>_DS2_EN_csv_v2_<id>.zip`（世行 API v2 导出命名） |
+| 获取日期 | **2026-10-28**（8 个指标包同日获取） |
+| 数据版本 | **2026-10-08**（各 CSV 内 `Last Updated Date` 字段一致） |
+| 授权 / License | **CC BY 4.0**（署名即可复制、分发、商用） |
+| 抽样说明 | **未抽样**：217 个经济体 × 2000—2024 年全量使用，未设随机种子 |
+
+> 同一批数据也可通过官方 API 端点直接获得（本项目未使用，仅作可复现性说明）：
+> `https://api.worldbank.org/v2/country/all/indicator/<指标代码>?format=csv&per_page=20000`
+
+原始文件原样保存在 `data/raw/`，未做任何手工修改。
 
 | WDI 代码 | 指标 | 单位 |
 | --- | --- | --- |
@@ -63,7 +77,7 @@
   未绕过任何访问限制、未伪造请求头；
 - **未使用 Power BI、Tableau、FineBI 等商业 BI 工具**生成任何图表；
 - 论文与报告中的**全部图表均由 Python 代码生成**（交互图 pyecharts + 本地 ECharts 渲染，
-  静态图 Pillow 绘制并输出 150 dpi PNG），**不存在 Excel 截图或手工修图**；
+  静态图 Matplotlib 绘制并输出 150 dpi PNG），**不存在 Excel 截图或手工修图**；
 - 原始数据未经人工篡改，清洗规则、异常值阈值与缺失处理策略均在代码注释与论文第三章中明确说明；
 - 文中所有数字均由 `scripts/` 下的脚本自动计算并写入 `outputs/models/conclusions.json`，
   再由论文脚本直接引用，可通过 `python run_all.py` 完整复现。
@@ -75,7 +89,7 @@
 ## 四、目录结构
 
 ```
-大作业DS/
+商业数据分析/
 ├── data/
 │   ├── raw/                      # 世界银行 WDI 官方下载包（8 指标，只读）
 │   └── clean/                    # 清洗产物
@@ -89,7 +103,7 @@
 │   ├── 02_models.py              # 六个模型（M1—M6）→ CSV + conclusions.json
 │   ├── 03_visuals.py             # 22 张 pyecharts 交互图（本地 ECharts，断网可用）
 │   ├── 04_dashboard.py           # 交互式数据大屏（5 控制器 + 8 联动组件）
-│   ├── 05_static_charts.py       # 8 张论文配图（Pillow 手绘，150 dpi PNG）
+│   ├── 05_static_charts.py       # 8 张论文配图（Matplotlib，150 dpi PNG）
 │   ├── 06_report.py              # 把正文素材灌进学校官方模板，生成论文 docx
 │   └── 07_index.py               # 生成 30 张图表的索引页 index.html
 ├── outputs/
@@ -124,7 +138,7 @@ python run_all.py 2 3      # 只重跑建模与可视化
 单步也可以直接运行，例如 `python scripts/02_models.py`。
 所有脚本都要求 `PYTHONIOENCODING=utf-8`（`run_all.py` 已自动设置），Windows 控制台中文不会乱码。
 
-**依赖说明**：`pandas / numpy` 做数据处理，`pyecharts` 画交互图，`Pillow` 画论文静态图，
+**依赖说明**：`pandas / numpy` 做数据处理，`pyecharts` 画交互图，`matplotlib` 画论文静态图，
 `python-docx` 生成论文，`openpyxl` 导出 Excel 版结果表。全部为纯 Python 包，无商业软件依赖。
 
 ### 自检
@@ -267,8 +281,8 @@ node tests/test_dashboard.js    # 大屏冒烟测试：14 项断言（可选，�
   已 grep 验证 22 个 HTML 均无外链——保证断网、离校答辩时图表照常显示。
 - **单点取数**：所有图表与论文数字只从 `outputs/models/conclusions.json` 读取，杜绝「图文对不上」。
 - **手写 K-Means / Holt**：环境无 sklearn / statsmodels 也不影响复现，且过程可解释、可审计。
-- **Pillow 手绘静态图**：环境无 matplotlib，改用 Pillow 直接绘制坐标系与图例，输出 150 dpi PNG，
-  与交互图使用同一份数据，风格统一。
+- **双引擎出图**：交互图用 pyecharts（矢量 HTML，可悬停、可联动），论文静态图用 Matplotlib
+  （150 dpi PNG，中文字体走系统微软雅黑），两者读取同一份 `outputs/models/` 结果，确保图文一致。
 
 ---
 
@@ -290,3 +304,4 @@ node tests/test_dashboard.js    # 大屏冒烟测试：14 项断言（可选，�
 - 截止时间：2026-11-05 11:00
 - 仓库地址：https://github.com/123GM456/123456 （本作业位于仓库 `商业数据分析/` 目录）
 - 作者：郑嘉豪　学号：2023451685215　专业班级：大数据242
+- 分工说明：**个人独立完成，无分组**（数据获取、清洗、建模、可视化、大屏、论文均由本人完成）

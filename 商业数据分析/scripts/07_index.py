@@ -164,7 +164,7 @@ def main():
   </main>
 </div>
 <footer>数据来源：世界银行 World Development Indicators（官方开放数据）。
-图表由 Python + pyecharts / Pillow 生成，未使用任何 BI 商业软件或 Excel 截图。</footer>
+图表由 Python + pyecharts / matplotlib 生成，未使用任何 BI 商业软件或 Excel 截图。</footer>
 </body>
 </html>
 '''
