@@ -1,0 +1,117 @@
+第 8 章 SQL 语句执行记录（sqlite3 方言适配后）
+
+[1] 8.2 选择列与排序（教材 SQL2）
+select year, market, sale, profit from sale order by year, market
+→ 12 行
+ year market  sale  profit
+ 2010      东 33912    2641
+ 2010      北 31884    2673
+ 2010      南 32246    2699
+ 2010      西 34792    2574
+ 2011      东 31651    2437
+ 2011      北 30555    2749
+ 2011      南 30572    2853
+ 2011      西 34175    2877
+ 2012      东 31619    2106
+ 2012      北 31744    2962
+
+[2] 8.2 去重（DISTINCT）
+select distinct year from sale order by year
+→ 3 行
+ year
+ 2010
+ 2011
+ 2012
+
+[3] 8.2 条件过滤 + BETWEEN + 排序
+select account_id, date, bank, amount
+        from kdd99_trans
+        where date between '1999-01-01' and '1999-01-31'
+          and k_symbol = '房屋贷款'
+        order by date, account_id
+→ 0 行
+Empty DataFrame
+Columns: [account_id, date, bank, amount]
+Index: []
+
+[4] 8.3 表达式创建新列
+select year, sale, profit, profit / sale as rate from sale where sale > 0
+→ 12 行
+ year  sale  profit  rate
+ 2010 33912    2641     0
+ 2010 32246    2699     0
+ 2010 34792    2574     0
+ 2010 31884    2673     0
+ 2011 31651    2437     0
+ 2011 30572    2853     0
+ 2011 34175    2877     0
+ 2011 30555    2749     0
+ 2012 31619    2106     0
+ 2012 32443    3124     0
+
+[5] 8.4 聚合函数
+select count(*) as 笔数, sum(amount) as 交易总额,
+               round(avg(amount), 2) as 平均金额, max(amount) as 最大单笔
+        from kdd99_trans
+→ 1 行
+     笔数       交易总额    平均金额  最大单笔
+1056320 6257862197 5924.21 87400
+
+[6] 8.4 GROUP BY + HAVING
+select type, count(*) as 笔数, round(sum(amount), 0) as 金额
+        from kdd99_trans group by type
+        having count(*) > 1000 order by 笔数 desc
+→ 2 行
+type     笔数           金额
+   借 634571 2821775775.0
+   贷 421749 3436086422.0
+
+[7] 8.5 多表 JOIN（客户画像常用三表连接）
+select count(*) as 成交卡数, round(avg(t.amount), 2) as 平均交易额
+        from kdd99_trans t
+        join kdd99_accounts a on t.account_id = a.account_id
+        join kdd99_district d on a.district_id = d.district_id
+        where d.urban_ratio > 0.6
+→ 1 行
+   成交卡数   平均交易额
+1056320 5924.21
+
+[8] 8.6 子查询：高于平均金额的交易
+select count(*) as 笔数 from kdd99_trans
+        where amount > (select avg(amount) from kdd99_trans)
+→ 1 行
+    笔数
+297057
+
+[9] 8.7 CASE WHEN 分箱（教材「用表达式分箱」）
+select case when amount < 1000 then '小额(<1千)'
+                    when amount < 10000 then '中额(1千-1万)'
+                    else '大额(≥1万)' end as 金额区间,
+               count(*) as 笔数
+        from kdd99_trans group by 金额区间 order by 笔数 desc
+→ 3 行
+     金额区间     笔数
+  小额(<1千) 433143
+中额(1千-1万) 425830
+  大额(≥1万) 197347
+
+[10] 8.8 开窗函数：每个地区的交易额排名
+select district_id, 交易额,
+               rank() over (order by 交易额 desc) as 排名
+        from (select a.district_id, sum(t.amount) as 交易额
+                from kdd99_trans t join kdd99_accounts a
+                  on t.account_id = a.account_id
+               group by a.district_id)
+        limit 10
+→ 10 行
+ district_id       交易额  排名
+           1 804494161   1
+          74 207622962   2
+          70 206554443   3
+          54 150895534   4
+          64 149337654   5
+          68 140377669   6
+          72 123210491   7
+          52 106517821   8
+           5 101733733   9
+          38  92265946  10

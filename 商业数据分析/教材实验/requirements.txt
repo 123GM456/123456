@@ -1,0 +1,8 @@
+# 《商业数据分析》教材实验 —— 依赖清单
+# 只用四个库：数据处理、数值计算、交互图、静态图
+
+pandas>=2.0        # 数据读取、清洗、分组聚合、透视表（对应 Excel 的 SUMIF/VLOOKUP/透视）
+numpy>=1.24        # 条件判断取值 np.where / np.select（对应 Excel 的 IF/AND/OR）
+pyecharts>=2.0     # 交互图表与大屏（对应 Power BI 报表）
+matplotlib>=3.7    # 静态配图（对应 Power BI 图表视觉对象）
+openpyxl>=3.1      # 仅 prep_data.py 需要：读取教材的 .xlsx 原始文件

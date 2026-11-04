@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 教材原始文件（版权保护，不随仓库分发）
+../1《CDA 一级认证教材：商业数据分析》/
+
+# 体积过大、可由脚本重建的中间产物
+data/ch01/trans.csv
+outputs/kdd99.db
+
+# 编辑器与系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

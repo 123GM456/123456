@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8">
+<title>教材实验 · 结果总览</title><style>
+:root { --ink:#1f2328; --muted:#6b7280; --line:#e5e7eb; --bg:#f7f8fa; --accent:#4472C4; }
+* { box-sizing: border-box; }
+body { margin:0; padding:32px 20px 64px; background:var(--bg); color:var(--ink);
+       font-family:"Microsoft YaHei","PingFang SC","Segoe UI",sans-serif; }
+.wrap { max-width:1080px; margin:0 auto; }
+h1 { font-size:26px; margin:0 0 6px; }
+.sub { color:var(--muted); font-size:13px; margin-bottom:26px; }
+.card { background:#fff; border:1px solid var(--line); border-radius:10px;
+        padding:18px 20px; margin-bottom:18px; }
+.card h2 { font-size:15px; margin:0 0 10px; color:var(--accent); }
+.badge { display:inline-block; font-size:12px; color:#fff; background:var(--accent);
+         border-radius:4px; padding:1px 7px; margin-right:8px; }
+.note { color:var(--muted); font-size:12.5px; margin:6px 0 0; }
+img { width:100%; border:1px solid var(--line); border-radius:6px; margin-top:12px; }
+a { color:var(--accent); text-decoration:none; }
+a:hover { text-decoration:underline; }
+ul { margin:8px 0 0; padding-left:20px; font-size:13px; line-height:1.9; }
+iframe { width:100%; height:820px; border:1px solid var(--line); border-radius:6px;
+         margin-top:12px; background:#fff; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:8px; }
+.grid div { font-size:13px; }
+</style></head>
+<body><div class="wrap">
+<h1>《商业数据分析》教材实验 · 结果总览</h1>
+<p class="sub">Excel / Power BI / MySQL 案例的 Python 复刻　·　
+12 张静态图 + 1 个交互看板 + 结果 csv　·　生成于 2026-11-04 18:55</p>
+<div class="card"><h2><span class="badge">第 1 章</span>星型模型与地区结构</h2><p class="note">左：交易额前 12 的地区；右：年龄段 × 性别交易额</p><img src="ch01_schema.png" alt="星型模型与地区结构"></div><div class="card"><h2><span class="badge">第 2 章</span>趋势 / 构成 / 分布 / 关系四范式</h2><p class="note">四种基础分析方法各一张：年度订单量、产品销量占比、用户年龄分布、成本-收入散点</p><img src="ch02_paradigms.png" alt="趋势 / 构成 / 分布 / 关系四范式"></div><div class="card"><h2><span class="badge">第 2 章</span>周度处理时长与预警线</h2><p class="note">week11 达 39 小时，超出 35 小时预警线，比均值 23.9 高 63%</p><img src="ch02_trend_week.png" alt="周度处理时长与预警线"></div><div class="card"><h2><span class="badge">第 2 章</span>品牌波士顿矩阵</h2><p class="note">横轴份额、纵轴 8 月对 7 月环比增速；A/F/C 为明星品牌</p><img src="ch02_boston.png" alt="品牌波士顿矩阵"></div><div class="card"><h2><span class="badge">第 2 章</span>RFM 八类人群分布</h2><p class="note">观测日 2019-08-03，与教材参考答案比对 R 100% / M 100%</p><img src="ch02_rfm.png" alt="RFM 八类人群分布"></div><div class="card"><h2><span class="badge">第 2 章</span>会员忠诚度分层</h2><p class="note">990 名会员按距今天数分为活跃 / 沉睡 / 流失预警 / 已流失</p><img src="ch02_loyalty.png" alt="会员忠诚度分层"></div><div class="card"><h2><span class="badge">第 2 章</span>同期群留存曲线与窗口校验</h2><p class="note">左：每日留存 D0→D30；右：窗口留存与教材矩阵逐格对齐（偏差 0.00 个百分点）</p><img src="ch02_cohort.png" alt="同期群留存曲线与窗口校验"></div><div class="card"><h2><span class="badge">第 2 章</span>行为漏斗与 AARRR 漏斗</h2><p class="note">浏览 100 → 收藏 90 → 加购 80 → 购买 80；AARRR 五环节</p><img src="ch02_funnel.png" alt="行为漏斗与 AARRR 漏斗"></div><div class="card"><h2><span class="badge">第 2 章</span>半小时粒度流量分布</h2><p class="note">教材「分布分析-时间」案例的时序还原</p><img src="ch02_dist_time.png" alt="半小时粒度流量分布"></div><div class="card"><h2><span class="badge">第 5 章</span>银行销售 KPI 四视图</h2><p class="note">风险等级销售额、收入段客单价、年龄段利润率、购买目的 Top6</p><img src="ch05_bank_kpi.png" alt="银行销售 KPI 四视图"></div><div class="card"><h2><span class="badge">第 9 章</span>用户画像四视图</h2><p class="note">性别构成、余额分层、活跃度分层、发卡年龄分布（均值 38.3 岁）</p><img src="ch09_profile.png" alt="用户画像四视图"></div><div class="card"><h2><span class="badge">第 10 章</span>乘法效应分解与 12 期预报</h2><p class="note">Y = T × S × I；旺季 7 月季节指数 1.237，回测 MAPE 9.56%</p><img src="ch10_decompose.png" alt="乘法效应分解与 12 期预报"></div>
+<div class="card"><h2>交互看板（第 2 章，5 个图表）</h2><p class="note">pyecharts 生成，可悬停查看数值；也可<a href="ch02_dashboard.html">在新标签页单独打开</a>。</p><iframe src="ch02_dashboard.html"></iframe></div>
+<div class="card"><h2>第 1 章 关系模型（4 个）</h2><div class="grid"><div><a href="ch01_by_district.csv">ch01_by_district.csv</a></div><div><a href="ch01_by_segment.csv">ch01_by_segment.csv</a></div><div><a href="ch01_by_frequency.csv">ch01_by_frequency.csv</a></div><div><a href="ch01_by_loan_status.csv">ch01_by_loan_status.csv</a></div></div></div><div class="card"><h2>第 2 章 Excel 公式（6 个）</h2><div class="grid"><div><a href="ch02_if.csv">ch02_if.csv</a></div><div><a href="ch02_vlookup.csv">ch02_vlookup.csv</a></div><div><a href="ch02_countif.csv">ch02_countif.csv</a></div><div><a href="ch02_pivot.csv">ch02_pivot.csv</a></div><div><a href="ch02_sumif_by_subject.csv">ch02_sumif_by_subject.csv</a></div><div><a href="ch02_sumif_cross.csv">ch02_sumif_cross.csv</a></div></div></div><div class="card"><h2>第 2 章 六类分析方法（7 个）</h2><div class="grid"><div><a href="ch02_boston.csv">ch02_boston.csv</a></div><div><a href="ch02_rfm.csv">ch02_rfm.csv</a></div><div><a href="ch02_rfm_compare.csv">ch02_rfm_compare.csv</a></div><div><a href="ch02_loyalty.csv">ch02_loyalty.csv</a></div><div><a href="ch02_cohort.csv">ch02_cohort.csv</a></div><div><a href="ch02_funnel.csv">ch02_funnel.csv</a></div><div><a href="ch02_funnel_aarrr.csv">ch02_funnel_aarrr.csv</a></div></div></div><div class="card"><h2>第 5 章 银行 KPI（6 个）</h2><div class="grid"><div><a href="ch05_kpi.csv">ch05_kpi.csv</a></div><div><a href="ch05_risk.csv">ch05_risk.csv</a></div><div><a href="ch05_income.csv">ch05_income.csv</a></div><div><a href="ch05_age.csv">ch05_age.csv</a></div><div><a href="ch05_cross.csv">ch05_cross.csv</a></div><div><a href="ch05_purpose.csv">ch05_purpose.csv</a></div></div></div><div class="card"><h2>第 8 章 SQL 实践（10 个）</h2><div class="grid"><div><a href="ch08_q01.csv">ch08_q01.csv</a></div><div><a href="ch08_q02.csv">ch08_q02.csv</a></div><div><a href="ch08_q03.csv">ch08_q03.csv</a></div><div><a href="ch08_q04.csv">ch08_q04.csv</a></div><div><a href="ch08_q05.csv">ch08_q05.csv</a></div><div><a href="ch08_q06.csv">ch08_q06.csv</a></div><div><a href="ch08_q07.csv">ch08_q07.csv</a></div><div><a href="ch08_q08.csv">ch08_q08.csv</a></div><div><a href="ch08_q09.csv">ch08_q09.csv</a></div><div><a href="ch08_q10.csv">ch08_q10.csv</a></div></div></div><div class="card"><h2>第 9 章 用户画像（2 个）</h2><div class="grid"><div><a href="ch09_user_profile.csv">ch09_user_profile.csv</a></div><div><a href="ch09_combo.csv">ch09_combo.csv</a></div></div></div><div class="card"><h2>第 10 章 效应分解（3 个）</h2><div class="grid"><div><a href="ch10_decompose.csv">ch10_decompose.csv</a></div><div><a href="ch10_seasonal.csv">ch10_seasonal.csv</a></div><div><a href="ch10_forecast.csv">ch10_forecast.csv</a></div></div></div>
+<div class="card"><h2>怎么复现</h2>
+<ul>
+<li><code>py -3.13 run_all.py</code> —— 一键跑完全部章节</li>
+<li><code>py -3.13 scripts/ch05_bank_kpi.py</code> —— 单独跑某一章</li>
+<li>口径差异与 Excel/PBI → pandas 技术映射表见 <code>README.md</code></li>
+</ul></div>
+</div></body></html>
